@@ -1,0 +1,849 @@
+
+ANOTAÇÕES DE HTML 
+
+<h1> >>>>> Rara por um titulo >> OBS: Não pode conter espaços na tag
+</h1> >>>>> Rara fechar o titulo >> OBS: Não pode conter espaços na tag 
+<p> >>>>> Para por um parágrafo
+</p> >>>>> Para fechar um parágrafo
+<img scr="foto.png" alt="Exemplo de foto"> >>>>> Para por uma foto
+<!DOCTYPE html> >>>>> Isso deve ser colocado no incio do codigo, para dizer ao google que o site é em HTML
+<html lang="pt-br"> >>>>> Para o google pode indicar a lingua do site e por tradução 
+<img src="Coloque aqui o caminho da imagem" alt="Coloque aqui um texto alternativo"> >>> Comando para por imagem no site
+DICA >>>>>>> use CTRL e ESPAÇO para selecionar o arquivo da imagem de uma maneira mais facil
+<link rel="shortcut icon" href="Coloque aqui o caminho do seu favicon" type="image/x-icon"> >>> comando para por favicon no seu site 
+DICA >>>>>>> use CTRL e ESPAÇO para selecionar o arquivo da imagem de uma maneira mais facil
+lorem >>>> cria um texto com um montão de baboseira escrita
+<b>Coloque aqui seu texto para ficar em negrito</b> >>>>>>>> tag para por um texto em negrito
+<strong>Coloque aqui o seu texto</strong> >>>>>>> para por um texto em destaque
+CRTL + P >>>>>>>> COMANDO UTIL PARA COLOCAR TEXTO DENTRO DE CODIGO, use >bb 
+<EM></em> >>>>>>>>> para por negrito na sua letra
+<mark></mark> >>>>>> para criar um marcado de texto no seu texto do seu site
+small >>>>>> para dar letras pequenas 
+id="principal" >>> coloque isso dentro de um codigo que vc queria que seja diferente dos outros para o css
+<strong></strong> >>> tag usada para deixar um texto m negrito, envelope o texto com essa tag e ele ficara em negrito
+
+
+
+ANOTAÇÕES DE CSS
+
+font-family >>> para por uma fonte 
+font-size >>> definir o tamanho da fonte, use sempre px ou em, 1em igual a 16px
+text-decoration: underline; >>> para por anderline em um texto
+font-weight: bolder; >>>
+font-style: italic; >>> 
+
+font-family: 'work Sans', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-style: italic; >>> Codigo para decorar texto h1
+
+font: italic bolder 3em 'work Sans', sans-serif; >>> esse codigo tem a mesma função do primeiro porem oculpa menas linhas
+font-style, font weidht, font-size, font-family >>> tem que usar esse ordem se nao o comando de cima nao funciona
+
+        @font-face {
+            font-family: 'coloque aqui o nome da sua fonte, qualquer nome ja vai, OBS: Coloque o mesmo nome nos font-family' ;
+            src: url('Coloque o nome do arqvuivo da fonte') format('truetype'), url('Coloque o nome do arqvuivo da fonte') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        } >>> Codigo para por uma fonte de um arquivo 
+text-align: ; >>> Comando para centralizar texto, center(meio)right(direita)left(esquerda)
+text-indent: 30px; >>> Comando para da uma espaço na primeira fileira de um paragrafo
+@charset "UTF-8"; >>> codigo para ser compativel com acentos, use sempre no incio do css
+border: 1px solid black; >>> tag para fazer uma borda
+display: inline-block; >>> tag para por um texto do lado do outro em forma de caixa
+a:active >>> /* comando para dar efeito ao clicar em algum link*/ (Pseudoclass)
+a:hover >>> /* comando para dar efeito de hover a links*/ (Pseudoclass)
+a:visited >>> /* comando para dar efeito em links ainda nao visitados*/ (Pseudoclass)
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        } >> codigo para criar uma borda
+margin: auto; >>> tag para deixar uma caixa no meio centralizado, sempre use isso 
+display: inline; >>> para transformar algo em box level em inline level
+display: block; >>> para transformar algo em inline level em box level
+box-shadow: 1px 1px 1px black; >>> codigo para fazer sombra em uma caixa
+border-radius: 20px; >>> Codigo para fazer uma bordaaaaaaaaaaaaaaaaaa
+
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            background-color: white;
+            border-radius: 50px; >>> codigo pronto para criar uma bola
+
+
+            border: 15px solid black;
+            padding: 10px;
+            border-image-source: url(bola.png);
+            border-image-slice: 20;
+            border-image-repeat: repeat; >>> codigo para por uma borda de imagem 
+           
+            Short rende codigo acima  order-image: url('bola.png') 27 stretch;
+     
+            background: linear-gradient(to bottom, #00ff00, #ffffff); >>> CODIGO PARA POR COR EM GRADIENTE
+
+        @font-face {
+            font-family: ;
+            src: url('Coloque aqui o url do arquivo da fonte') format();
+        } >>> codigo para por uma fonte instalada
+
+
+ATALHOS LEGAIS DO VS CODE:
+CTRL + D >>> esse atalho server pra escrever/mudar varios textos de uma vez
+CTRL + F >>> Procurar por palavras escritas no seu codigo
+CTRL + P >>> Procurar por arquivos, mesma função do de cima soq pra arquivos
+ALT + SHIFT + SETA PRA CIMA OU PRA BAIXO >>> Isso serve para criar mais linhas de um codigo, pra baixo cria linhas pra baixo e pra cima pra cima
+CTRL + SHIFT + ALT >>> Posso escrever varias linhas com esse atalho
+
+
+DICAS DAS AULAS/ANOTAÇÕES
+Dica: Johannes Gutenberg criou a prensa mecanica
+Dica: Medidas absolutas cm, mm, in, pt, px, pc
+Dica: Medidas relativas em, ex, rem, vh, vw, %
+Dica: Use sempre medidas px e em 
+Dica: 1em equivale e 16px
+Dica: O X é o incio de todas as fontes e tambem e importante por causa da altura
+Dica: Johannes Gutenberg criado da prensa mecanica
+Dica: Johhanner gutenberg deu a revolu~ção da imprensa
+Dica: weidht = peso, width = largura, height = tamanho.
+Dica: Site com diversas fontes: https://fonts.google.com/?query=work+sans
+Dica: Site para instalar fontes: da fonte.com
+Dica: Codigo para por fonte intalada do site acima:
+        @font-face {
+            font-family: ;
+            src: url('Coloque aqui o url do arquivo da fonte') format();
+        }
+Dica: tipos de format do codigo acima, opentype(otf) truetype(ttf) embedded-opentype, tryetype-att (Apple advanced typograph) , svg
+Dica: Link do git hub do professor guanabara: https://github.com/gustavoguanabara
+Dica: Neil Patel, mandaram guardar esse nome na aula pdf 13 pois vou ouvor mais sobre ele em outros locais
+Dica: Adobe color, site para pegar cores, paletas de cores
+Dica: Extensão do chrome para pegar fontes, fonts ninja
+Dica: Site para pegar fontes de imagens: https://www.whatfontis.com, site muito bom segundo o guanabara
+Dica: Site para pegar fontes de imagens: https://www.fontsquirrel.com, site mais ou menos o de cime é melhor
+Dica: Site para pegar fontes de imagens: https://www.myfonts.com, bom também, melhor doq o de cima eu acho, mas o primeiro ainda é melhor
+Dica: O professor guanabara ensina a usar esses sites acima nesse video: Módulo 02, Capítulo 14, aula 09
+Dica: tem 3 tipos de alinhamentos, a esqueda, a direita, e centralizado
+Dica: right Direita, center texto centralizado, left texto a esquerda
+Dica: em HTML é id = em CSS é #
+Dica: em HTML é class = em CSS é .
+Dica em HTML é pseudoclass = em CSS é :
+Dica: ID é unico apenas para 1, class é multiplos, pode usar o mesmo em varias coisas
+Dica: Height é altura, width é largura
+Dica: Voce pode criar codigos mais rapidos assim: div>h1>P 
+Dica: pseudoclass 1 : pseudoelemento 2 ::
+Dica: https://www.blogson.com.br/lista-de-simbolos-do-html-5/ site com varios simbolos de html 5
+Dica: # = id
+Dica: . = class
+Dica: : = pseudoclass
+Dica: :: = pseudoelemento
+Dica: > = clildren
+Dica: height altura
+Dica: width largura
+Dica: border linha que circula seu conteudo
+Dica: Padding para dar um espaço uma engordada
+Dica: Margin borda pra fora uma margem
+Dica: outline para da um contorno ou traçado 
+Dica: temos caixas do estilo box level e inline level
+Dica: temos caixas em inline-level
+Dica: box-level sempre pula uma linha ora baixo e ocupa toda a largura do navegador  
+Dica: inlive-level, ele pula pro lado e continua o conteúdo
+Dica: as anotações de cima são de caixas 
+Dica: a tag <div> é uma caixa em box-level
+Dica: a tag <span> ela cria uma caixa em inline-level
+Dica> user agent, é o nosso navegador
+Dica: Tipos de caixa box-level, <div> <h1>-<h6> <p> <main> <header> <nav> <article> <aside> <footer> <form> <video>
+Dica: Tipos de caixa inline-level, <span> <a> <code> <small> <strong> <em> <sup>-<sub> <label> <button> <input> <selec>
+Dica: margin top = margin de cima, margin right = margin da direita = margin bottom = margin de baixo, margin left = margin da esquerda. OBS<ESSAS MESMAS ANOTAÇÕES SERVEM PARA O PADDIN>
+Dica: Outline fica entre a borda e a margin 
+Dica: cima direita baixa esquerda, coloque os paddin, margin desse jeito.
+Dica: paddin espaço interno, margin expaço externos
+Dica: Nav = menu, Header cabeçalho, Main = conteúdo principal, Section = Seções 
+Dica: inset para por sombra por dentro 
+
+
+DICAS E ANOTAÇÕES DO CAPITULO 17 
+
+Dica: São os principais itens para o planejamento de um site: Layouts, cores e fonte
+Dica: Esse site serve para planejar seu projeto, muito bom ele: https://wireframepro.mockflow.com
+Dica: Esse site serve para pegar cores pro seu projeto, muito bom ele: https://color.adobe.com/pt/create/color-wheel
+Dica: Esse site serve para pegar fontes pro seu projeto: https://fonts.google.com/specimen/Bebas+Neue?preview.text=bebas%0A&query=bebas
+Dica: Esse site serve para pegar fontes pro seu projeto, caso não ache fonte no de cima ou queira outra veja nessa: https://www.dafont.com/pt/
+Dica: TAG <header></header> >>> tag de cabeçalho, caixa de cima, inicio 
+Dica: TAG <nav></nav> >>> tag de navegação, usada pra por geralmente links e etc
+Dica: TAG <main></main> >>> tag de conteúdo principal, para conteúdos principais
+Dica: TAG <article></article> >>> tag usada para argito, geralmente usada dentro da tag main, para por artigos, coisas escritas e etc
+Dica: TAG <footer></footer> >>> tag usada geralmente para fazer um rodapé na parte de baixo do site
+Dica: TAG <aside></aside> >>> tag usada geralmente para conteudos externos, que fica dentro de uma main ou tag article
+Dica: TAG <abbr title="nome da abreviação">li aqui dentro</abbr> >>> essa tag serve para abreviar listas do li
+Dica: é possivel usar variaveis em css, se eu quiser defirnir cores eu posso fazer isso que está logo abaixo:
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+} >>> agora eu posso usar cores definidas, para decorar meu site, basta dar CTRL + ESPAÇO e descer ate o final e selecionar qual cor você quer
+COMO FAZER UMA LISTA ? crie a tag <ul><li>Trota<li/></ul> dentro da tag Ul crie <li><li/>
+Dica: Tem como tirar espaços de caixas, geralmente h1. h2, p e etc, eles vem com margin e padding ja definidos e isso de vez enquando atrapalha, pq fica espaço aonda voce nao quer: coloque o codigo abaixo nos css pra poder arrumar isso
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Dica: Segue abaixo o codigo para deixar o seu site responsivo, adaptavel para varias telas, vale lembrar que tem mais codigos prsa ajudar nisso:
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+Dica: Segue abaixo o codigo para deixar uma imagem responsiva, OBS: caso você tenha uma imagem pequena, coloque ela pra aparecer primeiro, se tiver uma grande coloque ela para aparecer em uma tela grande com o codigo abaixo:
+        <picture>
+            <source media="(max-width:escolha os px, recomendo 800px, lembre que a imagem na frente ira aparecer se a tela for maior que 600px, vc pode por min-widht tbm)" srcset="coloque aqui o caminho da imagem">
+            <img src="imagens/irina-blok.jpg" alt="irina block">
+        </picture>
+Dica: segue abaixo um exemplo, coisa basica de como deixar suas imagens responsiva:
+img{
+    width: 100%;
+}
+Dica: segue abaixo um exemplo, coisa basica de como deixar seu site responsiva:
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+} >>> oq importa é o min e o max
+Dica: paddin sem nada é um paddin normal, em cima embaixo esquerda e direita, então voce colocando so paddin vc edita todos esses duma vez
+Dica: a tag text-indent: 30px; serve para da uma espaço no incio de uma paragrafo
+Dica: a tag line-height: -2em; serve para da um espaço no texto, exemplo, eu posso ter um texto em cima escrito a e um em baixo escrito b eu posso usar essa tag pra distanciar os 2
+Dica: TAG para dar para  gradiente muito bom ao seus titulos e etc background-image: linear-gradient(to right, var(--cor1), transparent);, ele vai começar com uma cor e vai ficar transparente no final
+Dica: a tag list-style-position: inside; serve para deixar a bolinha da lista pra dentro
+Dica: a tag columns: 2; serve para deixar uma lista dividida em 2
+Dica: https://emojipedia.org site para pegar emoj pro seu site
+Dica: TAG para decorar a bolinha do UL list-style-type: '\codigo do emoji\00A0'; coloque uma \ na frente para indicar o emij
+Dica: a tag margin: -10px -10px 0px -10px; em baixo nao tem margin negativa, lembra-se, esquerda direita baixo e em cima
+Dica: TAG segue abaixo uma tag para enfeitar seu link que é externo: 
+a.externo::after{
+    content: '\1F517';
+}
+Dica: segue abaixo um codigo para deixr videos do youtube mais responsivos:
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+AULAS JA FEITAS
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 01
+00:14​ – Novo capítulo, novo conceito importante
+00:57​ – O que veremos nesse vídeo?
+01:34​ – Curso grátis de criação de apps para dispositivos móveis
+02:37​ – Conceitos fundamentais de tipografia
+03:20​ – Como os livros eram feitos antigamente?
+05:00​ – O grande invento de Gutenberg
+07:10​ – Quem é o pai da imprensa?
+08:25​ – Ajude a divulgar o nosso material
+09:50​ – Letras mais fáceis de ler
+10:38​ – O que significa tipografia?
+11:40​ – Tipos e as emoções
+12:40​ – Exemplo 1 de aplicação de tipo
+13:47​ – Exemplo 2 de aplicação de tipo
+14:36​ – Exemplo 3 de aplicação de tipo
+15:20​ – Vamos continuar com os conceitos
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 02
+00:14​ – O que vimos até aqui
+00:54​ – Cursos grátis para ajudar na sua carreira
+02:02​ – Anatomia do tipo
+03:43​ – Altura X
+04:54​ – Altura das maiúsculas
+05:22​ – Ascendente e descendente
+06:05​ – Altura do corpo
+06:52​ – A importância da serifa
+08:23​ – Experiência de leitura
+11:05​ – Seja um apoiador do projeto e ganhe certificados
+11:47​ – Anatomias geométricas
+13:54​ – Anatomias humanizadas
+16:00​ – O que é um glifo
+16:27​ – O que é uma fonte
+17:05​ – Família tipográfica
+18:44​ – Categorias de fontes
+19:25​ – Fontes serifadas e sem sérias
+20:19​ – Recomendações de uso de fontes
+21:34​ – Fontes monoespaçadas
+23:07​ – Fontes handwrite e comemorativas
+24:34​ – Vamos aplicar tudo na prática
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 03
+00:14​ – Vamos continuar a estudar fontes
+00:55​ – Aprenda a criar aplicativos Android
+02:05​ – Criando um novo exercício
+03:18​ – Criando o conteúdo genérico
+04:20​ – Mudando a família da fonte
+05:21​ – Segue a gente nas redes sociais
+05:49​ – Usando múltiplas fontes alternativas
+07:29​ – Web safe font combinations
+08:30​ – Fontes genéricas
+09:24​ – VSCode te ajuda com as combinações
+10:25​ – Família de fonte para títulos
+11:34​ – Vamos falar sobre tamanho de fonte
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 04
+00:14​ – Seguindo as normas da W3C
+01:02​ – Cursos grátis para quem está começando agora
+02:24​ – Usando o font-size
+02:49​ – Medidas absolutas para tamanho
+04:17​ – Medidas relativas para tamanho
+05:28​ – Usaremos mais a medida “em”
+06:38​ – Seja avisado sobre nossos lançamentos
+07:15​ – Experimentando outras medidas
+07:50​ – Qual é o tamanho normal de uma fonte na tela
+08:23​ – Diferença entre medidas px e pt
+09:15​ – Relação entre medidas px e em
+10:44​ – Recomendações oficiais
+11:31​ – Mais propriedades de fonte
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 05
+00:15​ – Peso, estilo e shorthand
+00:59​ – O melhor local para colocar seu site
+02:30​ – Peso da fonte
+03:39​ – Uso do font-weight
+04:11​ – Peso com palavras-chave
+05:07​ – Peso com variações numéricas
+06:05​ – Nem toda fonte tem variações
+06:37​ – Uso do font-style
+08:00​ – Uso do text-decoration
+08:36​ – Configuração de exemplo
+09:11​ – Simplificando tudo com shorthand Font
+11:06​ – Um outro exemplo de simplificação
+11:51​ – Quer conquistar cinco certificados?
+12:33​ – Usando fontes externas
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 06
+00:14​ – Usando fontes externas em sites
+00:43​ – Quer aprender a produzir vídeos?
+02:14​ – Criando um novo exercícios
+04:28​ – Acessando o Google Fonts
+05:10​ – Filtrando fontes por categoria
+05:46​ – Usando uma fonte escolhida
+06:48​ – Código de incorporação da fonte
+07:20​ – Colocando o código no arquivo CSS
+07:49​ – Escolhendo uma fonte mais completa
+09:00​ – Importando a segunda fonte
+09:47​ – Aplicando a fonte ao conteúdo HTML
+11:38​ – Mais opções do Google Fonts
+12:26​ – E se a fonte não estiver no Google Fonts?
+13:36​ – Quantas fontes usar em um site?
+13:55​ – Nos ajude a chegar mais longe
+14:36​ – Usando fontes externas baixadas
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 07
+00:13​ – Procurando uma fonte específica para seu site
+01:00​ – A sua oportunidade pode estar aqui
+02:07​ – Criando um novo exercício
+02:56​ – Montando o estilo CSS
+03:20​ – Sites para baixar fontes
+03:56​ – Cuidado com fontes sem acentos
+05:00​ – Baixando uma fonte
+05:30​ – Onde colocar uma fonte externa no site
+06:01​ – Criando o seletor font-face
+06:50​ – Configurando a fonte personalizada
+07:28​ – Entenda sobre os tipos e formatos de fonte
+08:45​ – Configurações adicionais ao font-face
+10:00​ – Configurando pastas específicas para fontes
+11:22​ – Misturando fontes externas e Google Fonts
+12:11​ – Compartilhe o curso com os amigos
+12:47​ – Continuaremos com o assunto de fontes
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 08
+00:16​ – Como capturar uma fonte de um site?
+01:11​ – Uma grande ajuda para criar seu próprio site
+02:35​ – Iniciando um exemplo
+03:00​ – Baixando o Fonts Ninja
+04:02​ – Desligando uma extensão não usada
+04:26​ – Descobrindo as fontes de um site
+07:17​ – Procurando por uma fonte na Web
+09:43​ – Ajude a divulgar nosso curso
+11:08​ – Vamos falar sobre alinhamento de textos
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 09
+00:17​ – E se a fonte estiver em uma imagem?
+01:15​ – Quer aprender redes, Linux e eletrônica básica?
+02:50​ – Acessando os sites que serão usados
+03:28​ – A imagem que será usada como referência
+03:54​ – Usando o WhatFontIs
+09:13​ – Usando o Font Squirrel
+10:03​ – Usando o MyFonts
+11:19​ – Torne-se um apoiador do projeto
+12:02​ – Vamos falar sobre alinhamentos
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 14, aula 10
+00:14​ – O que aprendemos até aqui?
+01:05​ – Faça vários outros cursos grátis
+02:14​ – Criando um novo projeto
+03:25​ – Tipos de alinhamento antigamente
+04:15​ – Fazendo alinhamento do jeito certo
+06:06​ – Recuo de parágrafo (text-indent)
+07:15​ – Não use mais a tag CENTER em HTML
+07:50​ – Acompanhe nosso trabalho nas redes sociais
+08:19​ – Dá pra personalizar ainda mais os seletores
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 15, aula 01
+00:16​ – Seletores personalizados
+01:19​ – Em que momento personalizar um seletor
+01:50​ – O melhor lugar para hospedar seu site
+03:02​ – Criando novo exercício
+04:50​ – Criando um estilo externo para a página
+06:45​ – Quer saber sempre que sair vídeo novo?
+07:22​ – Por padrão, todo seletor é genérico
+08:11​ – Identificando componentes HTML com id
+09:43​ – O uso do símbolo cerquilha #
+10:22​ – Personalizando os títulos com id
+11:25​ – Cuidado com erros de digitação
+11:58​ – Qual é a diferença entre id e class?
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 15, aula 02
+00:14​ – Continuando onde paramos
+00:49​ – Ajude a divulgar o curso
+02:14​ – O exercício da aula anterior
+02:58​ – Posso usar mais de um id igual?
+04:01​ – Uma formatação especial
+04:45​ – Qual é a diferença entre id e class?
+05:13​ – Dica para dar nome a uma class
+06:20​ – Criando configurações para cada classe
+07:35​ – Os certificados são válidos?
+08:16​ – Aumentando o alcance de uma classe
+09:08​ – Usando mais de uma classe em um elemento
+10:19​ – Usando id e classe em um mesmo elemento
+11:29​ – A prioridade é do id ou class?
+12:47​ – Próximo assunto das aulas
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 15, aula 03
+00:14​ – Vamos aprender pseudo-classes em CSS
+00:43​ – Empoderamento digital com a Recode
+01:51​ – Criando um novo exercício
+02:49​ – Criando algumas DIV
+03:15​ – Personalizando as DIV
+04:35​ – Usando alinhamento de bloco em linha
+05:39​ – O que são pseudo-classes
+06:11​ – Usando a pseudo-classe hover
+07:55​ – Ajude o canal
+08:35​ – Criando mais um exemplo
+09:22​ – Criando o estilo com pseudo-classe
+10:11​ – Escondendo um elemento da página
+11:11​ – Revelando um elemento escondido
+13:04​ – Próximo assunto: pseudo-elementos
+
+Tópicos deste vídeo:
+00:00​ – Módulo 02, Capítulo 15, aula 04
+00:15​ – O que aprendemos até aqui
+00:45​ – Onde hospedar seu site?
+02:29​ – Criando um novo exercício
+03:21​ – Criando uma lista com links
+04:21​ – Criando os estilos
+04:45​ – Pseudo-classe visited
+05:15​ – Retirando sublinhado dos links
+06:09​ – Pseudo-classe active
+07:47​ – Ajude a divulgar o curso
+08:23​ – Pseudo-elementos
+09:27​ – Adicionando conteúdos extras
+10:26​ – Links especiais com formatação por classe
+11:50​ – Uma breve revisão
+12:52​ – No próximo capítulo
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 01
+00:15 - Modelo de caixas, box model
+00:59 - Ajuda extra para quem está começando
+02:09 - O que é o modelo de caixas
+02:49 - Aninhamento de caixas em HTML
+03:30 - Um exemplo simples de caixa
+04:40 - Altura (height) e Largura (width) de uma caixa
+05:49 - Borda (border) da caixa
+06:40 - Preenchimento (padding) da caixa
+07:27 - Magem (margin) da caixa
+08:14 - Contorno (outline) da caixa
+08:58 - Ajude a divulgar o nosso curso
+10:24 - Caixas box-level
+12:10 - Caixas inline-level
+12:43 - Diferenças entre box-level e inline-level 
+13:11 - Exemplos de caixas box e inline
+15:13 - Vamos ver um exemplo prático
+
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 02
+00:19 - Vamos colocar a mão na massa
+00:49 - Faça outros cursos grátis
+01:44 - Criando o primeiro exercício prático
+02:25 - Criando uma caixas de vários tipos
+03:40 - Usando o DevTools do Chrome
+04:50 - Identificando caixas box-level
+05:52 - Identificando caixas inline-level
+07:01 - Identificando padding e margin
+07:40 - Criando um estilo personalizado
+08:30 - Configurando largura e altura da caixa
+09:00 - Personalizando propriedades com o DevTools
+10:27 - Usando bordas em caixas via CSS
+11:45 - Mais configurações para o corpo
+13:28 - Personalizando a borda em outros formatos
+14:39 - Seja um apoiador do projeto
+15:22 - Configurando o padding de uma caixa
+16:22 - Sentido correto do padding
+17:17 - Ajuste fino do padding
+19:33 - Vamos continuar nesse mesmo assunto
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 03
+00:14 - Propriedades que já vimos
+00:45 - Soluções digitais para o seu negócio
+02:18 - Relembrando bordas e espaçamentos
+03:18 - Entendendo a posição das margens
+04:41 - Configurando a margem dinamicamente
+05:22 - Centralizando com margens automáticas
+07:13 - Entendendo o outline
+09:00 - Usando shorthands para propriedades
+10:11 - Ordem das propriedades
+10:48 - Simplificando shorthands de medidas iguais
+11:50 - Simplificação com duas medidas
+13:35 - Você conhece nossas redes sociais?
+14:01 - Centralizando com shorthand
+15:15 - Resumo da aula
+15:46 - Personalizando o formato da caixa
+17:43 - Não adianta ter pressa. Pratique!
+
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 04
+00:13 - Para que agrupar as caixas?
+00:54 - Quer aprender a programar?
+02:12 - Criando um novo exemplo
+02:40 - div e span agrupados
+03:31 - As novidades da HTML5 em caixas
+04:12 - Cabeçalho, conteúdo principal e rodapé
+06:16 - session, article e aside
+07:40 - Preparando a formatação CSS3
+08:24 - Formatando o corpo do site
+09:24 - Formatando o rodapé
+10:52 - Formatando o menu
+12:51 - O site que construimos
+14:13 - Quero ser avisado quando sair vídeos
+14:50 - Até a próxima
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 05
+00:14 - Você já conhece o modelo de caixas
+00:54 - Curso grátis para criação de aplicativos móveis
+01:55 - O exercício da aula anterior
+02:15 - Cuidado com as sombras!
+03:08 - Resolvendo o problema com o rodapé
+04:54 - Entendendo a shorthand box-shadow
+05:35 - Usando o DevTools para ajudar com as sombras
+06:25 - Os certificados do CursoemVideo são válidos?
+07:07 - Assistente simples para a criação de sombras
+09:58 - Configurando a cor de uma sombra 
+12:53 - Vamos aprender mais sobre bordas
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 16, aula 06
+00:15 - O que vamos aprender sobre bordas
+00:49 - Cursos grátis com ferramentas grátis
+01:57 - O exercício anterior
+02:14 - Criando o border-radius
+03:24 - Configurações individuais de cada vértice
+04:38 - Não se esqueça de se inscrever no canal
+05:18 - Configurações duplas no border-radius
+06:15 - Juntando border-radius com box-shadow
+07:36 - Criando círculos usando o border-radius
+08:46 - Bordas em imagens. É possível!
+
+00:00 - Módulo 02, Capítulo 16, aula 07
+00:17 - Bordas decoradas com CSS
+00:50 - Aprenda a criar aplicativos de celular
+02:01 - Criando borda com o GIMP
+03:20 - Desenhando uma borda personalizada
+05:00 - Exportando a borda em PNG
+05:25 - Criando o arquivo o código HTML
+06:04 - Criando o estilo com borda padrão
+05:36 - Carregando a borda personalizada
+07:30 - Fazendo o ajuste fino com DevTools
+08:29 - Ajude a compartilhar o curso
+09:05 - Personalizando ainda mais a borda
+09:50 - Simplificando com shorthand 
+10:10 - Cuidado! Não tire a borda normal
+10:50 - Vem aí o nosso desafio
+
+00:00 - Módulo 02, Capítulo 16, aula 08
+00:16 - O desafio do módulo 2
+00:37 - Cursos pra quem está começando
+01:58 - Acessando o repositório
+02:45 - O site completo do desafio
+03:35 - Ajude a divulgar o curso
+05:01 - Onde está a resposta para o desafio?
+06:03 - Tente resolver o desafio
+07:04 - Prepare tudo aí
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 01
+00:15 - Primeiro mini-projeto
+01:43 - Ótimo lugar para hospedar seu site
+03:13 - Criando a pasta para o projeto
+03:48 - Baixando os arquivos com as mídias
+05:03 - Descompactando os arquivos extras
+05:34 - Copiando os arquivos para a pasta do projeto
+06:30 - Abrindo o projeto com o VSCode
+07:00 - Criando o arquivo html do projeto
+08:07 - Seja um apoiador do projeto
+08:50 - Encerramento
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 02
+00:17 - Evite copiar, tente sempre criar
+02:33 - Curso para produção de vídeos
+04:02 - Como vai ficar o projeto pronto
+04:48 - As mídias
+05:00 - Lista personalizada
+05:26 - Conteúdo responsivo
+07:06 - Acompanhe nossas redes sociais
+07:34 - Vai começar o planejamento do projeto
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 03
+00:13 - Ferramenta grátis para planejar layouts
+01:20 - Uma história 
+02:28 - O que precisamos planejar
+02:50 - Acessando o MockFlow
+04:08 - Abrindo sua conta do MockFlow
+05:08 - Criando um projeto Web no MockFlow
+05:38 - Adicionando um Browser Frame
+06:01 - Adicionando caixas ao layout
+06:36 - Adicionando o elemento de menu
+07:05 - Adicionando o conteúdo principal
+07:38 - Adicionando o rodapé
+07:50 - Personalizando o cabeçalho
+08:23 - Adicionando o artigo com conteúdo
+08:59 - Adicionando espaços para imagens
+09:17 - Adicionando espaço para vídeos 
+10:22 - Usando o Adobe Color
+11:00 - Escolhendo uma paleta de cores
+11:35 - Escolhendo a fonte no Google Fonts
+12:00 - Escolhendo uma fonte para download
+13:31 - Vasculhando o pacote que baixamos
+13:56 - O planejamento é muito importante
+14:15 - Quero receber notificações com as novidades
+14:43 - Vamos começar a montar a estrutura do site
+
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 04
+00:12 - Organização semântica do layout
+00:47 - Especialista em criação de sites profissionais
+02:10 - Analisando o layout no MockFlow
+02:43 - Abrindo a pasta do projeto no VSCode
+03:08 - Criando o cabeçalho do site
+04:07 - Criando o menu de navegação
+04:47 - Criando o conteúdo principal do site
+06:00 - Arrumando a indentação do código
+07:00 - Criando o rodapé do site
+07:38 - Abrindo o projeto no navegador
+08:22 - Adicionando o ícone de favoritos
+09:30 - Adicionando o estilo externo CSS
+11:00 - Iniciando a configuração das CSS
+12:20 - Adicionando conteúdo periférico
+14:16 - Este curso terá certificado?
+14:59 - Mantenha seu código organizado
+15:31 - Seu código deu algum problema?
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 05
+00:13 - Organizando o conteúdo
+00:50 - Quer fazer outros cursos mais completos?
+02:27 - O que já fizemos até o momento
+03:10 - Envelopando códigos
+03:58 - Podemos ter mais de um H1 em uma página?
+04:32 - Envelopando parágrafos e títulos
+05:16 - Adicionando as imagens no site
+06:15 - Preparando o resto do conteúdo
+07:33 - Adicionando vídeo do YouTube no HTML
+08:38 - Criando uma lista de itens
+09:45 - Criando abreviações em HTML
+11:05 - As versões do Android são doces
+12:09 - Testando as abreviações
+12:54 - Formatando as palavras de destaque
+13:19 - Criando os links externos
+14:03 - Não se esqueça de nos ajudar
+14:44 - Novos links usando HTML
+18:08 - Os conteúdos já estão organizados
+20:12 - Vamos aprender a usar variáveis em CSS
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 06
+00:13 - Como usar variáveis em CSS
+01:24 - CSS é uma linguagem de programação?
+01:55 - Conheça os cursos da Recode
+03:03 - Para que vou usar variável em CSS?
+03:35 - A paleta de cores que escolhemos
+04:56 - Aplicando cores sem variáveis
+05:37 - Criando a pseudo-classe root
+06:02 - Declarando uma variável CSS
+06:43 - Usando variáveis CSS no código
+07:55 - Usando variáveis para fontes
+09:55 - Usando fontes em variáveis declaradas
+10:25 - Mudando o caminho para acessar a fonte
+11:24 - Compartilhe o curso com seus grupos
+11:59 - Personalizando os estilos extras
+13:54 - A praticidade em usar variáveis CSS
+14:47 - Definições globais em CSS
+16:17 - Seletor global
+17:03 - Conteúdo que fica vazando no site
+18:54 - Use variáveis sempre que possível
+
+Tópicos deste vídeo:
+00:00 – Módulo 02, Capítulo 17, aula 07
+00:14 – O que é responsividade?
+01:25 – Migrar um site é fácil? Você pode fazer pra mim?
+02:38 – O que fizemos até o momento
+03:09 – Simulando telas menores
+03:53 – Simulando telas maiores
+04:20 – Qual é a largura ideal de um site?
+06:15 – Criando um exemplo simples de site responsivo
+07:20 – Abrindo o exemplo criado
+08:18 – Instalando a extensão Window Resizer
+10:14 – Criando o estilo para o site responsivo
+11:03 – Usando largura fixa e alinhando o conteúdo
+12:13 – Usando min-width e max-width
+13:40 – Imagens adaptáveis por CSS
+14:03 – Usando picture com múltiplas mídias
+15:33 – Testando o exemplo de responsividade
+18:10 – Ajude a divulgar o nosso curso
+19:35 – Vamos adaptar os conceitos ao desafio
+
+Tópicos deste vídeo:
+00:00 – Módulo 02, Capítulo 17, aula 08
+00:16 – Você já sabe a teoria sobre responsividade?
+01:21 – Uma empresa especializada em criar sites
+02:45 – Configurando larguras mínima e máxima
+03:35 – Adaptando o tamanho das imagens
+03:56 – Alinhando o conteúdo do site no meio da tela
+04:30 – Usando imagens alternativas para telas pequenas
+05:09 – Usando um Picture com múltiplos sources
+07:25 – Centralizando imagens no site
+07:54 – Adaptando a área main
+09:02 – Arredondamento personalizado de bordas
+10:49 – Dá trabalho adaptar um site?
+11:19 – Ajude a divulgar o curso
+12:45 – Vamos configurar o topo do site
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 09
+00:14 - Vamos personalizar o cabeçalho
+00:42 - Cursos grátis com a Recode
+01:51 - O que fizemos até aqui
+02:32 - Altura mínima e alinhamento do conteúdo
+03:38 - Configurando os títulos do cabeçalho
+06:23 - Sombras no texto com text-shadow
+07:49 - Cor degradê no background com linear-gradient
+09:04 - Siga o Guanabara nas redes sociais
+09:30 - Configurando o menu com nav
+11:07 - Personalizando os links do menu
+11:54 - Criando o hover dos itens do menu
+12:54 - Usando animações de transição com CSS
+14:04 - O que vamos fazer a seguir?
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 10
+00:16 - Melhorando o conteúdo do desafio
+01:00 - Hospedagem + treinamento + desenvolvimento
+02:46 - Corrigindo um problema prévio
+03:35 - Tamanho máximo e mínimo de imagem
+04:52 - Configurando os parágrafos
+06:18 - Alinhamento do texto
+07:13 - Indentando os parágrafos
+07:30 - Mudando o espaçamento entre linhas
+09:30 - Configurando os textos em destaque
+10:50 - Configurando o formato dos links
+11:50 - Usando o hover nos links
+12:41 - Formatando os títulos
+13:14 - Criando gradientes para transparências
+14:43 - Revisando o exercício
+15:47 - Seja avisado quando sair aula nova
+16:24 - Vamos continuar em breve
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 11
+00:17 - Seu projeto está atualizado até aqui?
+01:35 - Cursos inéditos e mais aprofundados
+02:47 - Conteúdo periférico (aside)
+03:43 - Arrumando o rodapé (footer)
+04:14 - Links dentro do rodapé
+05:12 - Configurando o aside
+05:32 - Configurando a lista em colunas
+06:40 - Mudando o marcador da lista para um emoji
+08:34 - Título dentro do aside
+09:09 - Encaixe do topo da caixa
+10:40 - Sombra na caixa
+11:48 - Personalizando links externos
+14:53 - Este curso vai ter certificado?
+15:36 - Vamos continuar o exercício
+
+Tópicos deste vídeo:
+00:00 - Módulo 02, Capítulo 17, aula 12
+00:17 - Vamos fazer algumas adaptações
+01:04 - Aprenda a produzir vídeos de qualidade
+02:35 - Deixando os títulos mais leves e legíveis
+03:45 - Centralizando o vídeo na tela 
+04:31 - Envelopando o vídeo em uma div
+05:00 - Configurando a div container do vídeo
+06:52 - Acompanhe nossas redes sociais
+07:19 - Ajustes para centralizar o vídeo na tela
+10:03 - Testando a responsabilidade do site
+12:00 - Ajustes finais no cabeçalho
+13:03 - O próximo passo será hospedar o site
+
+Tópicos deste vídeo:
+00:00 – Módulo 2, aula final
+00:28 – O que vamos ver nesse vídeo
+00:56 – Quais serão os módulos do curso
+01:47 – O que vimos no módulo 2
+03:37 – Coisas que todo certificado deve ter
+04:59 – Nossos certificados possuem código de validação
+05:46 – Como obter um certificado?
+07:03 – Cuidado com o e-mail usado
+07:35 – Painel do aluno e acesso ao curso
+08:08 – Iniciando o curso
+08:49 – Cuidado ao marcar a aula como concluída
+10:04 – Como acessar seus cursos em andamento
+11:05 – O certificado vai chegar na minha casa?
+11:29 – Como conseguir créditos para certificados
+12:16 – Como ganhar créditos todos os meses
+14:14 – Vocês tiram dúvidas de matéria no site?
+15:37 – Quando vai sair o módulo 3?
+16:23 – Bom curso! Boa avaliação! FIM DO MÓDULO 2...

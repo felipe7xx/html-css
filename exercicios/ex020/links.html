@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudoclass
+        :: = pseudoelemento
+        > = clildren
+        */
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred; /* comando para dar efeito em links ainda nao visitados*/
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline; /* comando para dar efeito de hover a links*/
+        }
+        a:active{
+            color: yellow; /* comando para dar efeito ao clicar em algum link*/
+        }
+        a::before{
+            content: ✓;
+        }
+        a::after{
+            content: ✓;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Repositio Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do cursoemvideo</a></li>
+    </ul>
+</body>
+</html>
