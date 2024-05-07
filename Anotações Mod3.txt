@@ -1,0 +1,111 @@
+TAGS E COMANDOS DE HTML5:
+
+
+
+TAGS E COMANDOS DE CSS3:
+
+
+
+O QUE VAMOS APRENDER NO MÓDULO 3:?
+
+1- Hospedar um Site no GITHUB
+2- Vamos aprender a usar um pouco git e github
+3- No caítulo 19 vamos falar sobre visual do site
+4- No capitulo 20 vamos aprender a hospedar um site
+5- Vamos aprender a utilizar tabelas
+
+ANOTAÇÕES CAPÍTULO 18:
+
+1- GIT é o sowfter que serve para armazenar versões antiga do seu projeto
+2- Por que usar o GIT: Por que ele é 100% gratuíto
+3- Git Hub serve para hospedar sites, guardar seus projetos, caso algo de errado você pode guardar seu projeto la 
+4- Chame o GIT de repositório local, pois ele esta na sua máquina 
+5- Chame o GITHUB de repotório removo, pois ele está hospedando seu site em um servidor, não na sua maquina 
+6- O gih é um repósitorio de codigos 
+7- O git foi criado por Linus Torvalds
+8- Mais pa frente vou me aprofundar em git e github, vou terminar o curso pegar uma experiencia e vou fazer o curso de git e github
+
+
+DICAS DO CAPÍTULO 18:
+
+
+
+AULAS CAPÍTULO 18:
+
+Tópicos desse vídeo:
+00:00 - O que vamos aprender no módulo 3?
+00:24 - Já fez os Módulos 1 e 2
+01:01 - Quer ver mais aulas?
+03:02 - Aprenda a hospedar sites
+04:20 - Configurando imagens de fundo
+04:52 - Primeiro projeto do módulo
+05:36 - Hospedando o projeto gratuitamente
+06:01 - Tabelas em HTML5
+07:23 - Receba as notícias antes de todos
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 01
+00:35 - Versionamento de Software
+01:39 - Mudando de vida
+02:50 - O que é um repositório?
+03:31 - Se você acompanhou tudo até aqui
+04:14 - Melhorando um projeto criado
+04:37 - E se a nova versão não ficou boa?
+05:12 - Gerenciador automático de versões
+06:42 - Quer um certificado para nossos cursos?
+07:16 - E se seu computador tiver problemas?
+08:24 - Como mostrar projetos a outras pessoas?
+09:12 - Um servidor no meio do caminho
+09:47 - Dá pra hospedar de graça?
+11:01 - Como tudo vai funcionar em conjunto?
+12:37 - Repositórios locais e remotos
+13:09 - Diferença entre Git e GitHub
+14:26 - Vamos instalar as ferramentas
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 02
+00:15 - Acesse o material
+01:17 - O melhor construtor de sites
+02:29 - Download do Git SCM
+03:40 - Download do GitHub Desktop
+04:33 - Instalando o Git no seu computador
+06:35 - Uma recomendação muito importante
+07:15 - Instalando o GitHub Desktop
+08:15 - Faça muitos outros cursos grátis
+08:54 - Vamos criar a conta no GitHub
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 03
+00:16 - O que vimos até aqui
+01:11 - Quer aprender a programar?
+02:25 - Cuidado com foto, nome e e-mail
+03:28 - Cuidado com sua senha
+03:51 - Criando conta no GitHub
+05:19 - Recomendações para e-mail
+06:33 - Continuando com o cadastro
+07:35 - Verificando sua conta
+07:57 - Mudando foto do perfil GitHub
+08:40 - Mais configurações GitHub
+09:27 - Acessando seu perfil GitHub
+09:48 - Configurando GitHub Desktop
+10:53 - Um notebook perfeito para estudantes
+11:49 - Vamos começar a gerenciar repositórios
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 04
+00:26 - O que aprendemos até aqui
+01:01 - Curso grátis Tecnologias para o Futuro
+02:00 - Fixando o GitHub Desktop na barra
+02:39 - Modo escuro no GitHub Desktop
+03:26 - Organizando as pastas para repositório
+04:31 - Criando novo repositório
+05:18 - Escolha a pasta corretamente
+06:20 - Escolhendo a licença
+07:01 - Iniciando o repositório local
+07:30 - Olhando o repositório por dentro
+08:11 - Um pedido muito importantes
+08:51 - Publicando um repositório remoto
+11:30 - Verificando se tudo funcionou
+13:30 - Tenha calma e paciência
