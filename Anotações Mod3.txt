@@ -217,3 +217,70 @@ Tópicos deste vídeo:
 10:50 - Quer fazer esse curso com certificado?
 11:26 - Segurança forte no GitHub
 14:19 - Encerramento
+
+ANOTAÇÕES CAPÍTULO 18:
+
+
+
+
+AULAS CAPÍTULO 18:
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 19, aula 01
+00:30 - Objetivo de imagens de fundo
+01:04 - Uma oportunidade de trabalho
+02:26 - Download do pacote de imagens
+03:34 - Descompactando o pacote
+03:50 - Copiando as imagens para o local correto
+06:12 - Hora de criar seu commit para a origem
+07:02 - Conferindo se está tudo certo
+07:48 - Faça outros cursos com o Guanabara
+08:26 - O que veremos a seguir?
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 19, aula 02
+00:31 - Você já fez o download do pacote?
+01:02 - Você já sabe usar o Linux?
+02:00 - Abrindo o repositório GitHub
+02:57 - Abrindo os arquivos e códigos
+03:25 - Criando o arquivo HTML
+03:59 - Criando o código básico HTML
+04:37 - Criando o estilo CSS básico
+06:28 - Personalizando cada caixa
+07:17 - Imagem de fundo em uma div
+08:11 - Imagens pequenas e grandes
+09:35 - Três maneiras de personalizar
+10:28 - Imagem de fundo ao body
+11:22 - Jamais crie algo sem testar
+12:59 - Cuidado com o tamanho da imagem
+14:02 - Precisando de um PC para estudar?
+14:59 - O que veremos na próxima aula?
+
+
+TAGS NOVAS E INTERESSANTES DO CAP 18:
+
+Código abaixo para fazer quadrado: 
+    <div class="quadrado" id="q1">
+
+    </div>
+código para estilizar o quadrado:
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+        }
+código para por uma imagem no quadrado:
+        div#q3{
+            background-image: url('imagens/pattern001.png');
+        }
+código para por uma cor gradiente no quadrado:
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+código para por uma imagem no fundo do seu site:
+        body{
+            background-image: url('imagens/wallpaper001.jpg');
+        }
