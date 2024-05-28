@@ -23,10 +23,19 @@ ANOTAÇÕES CAPÍTULO 18:
 5- Chame o GITHUB de repotório removo, pois ele está hospedando seu site em um servidor, não na sua maquina 
 6- O gih é um repósitorio de codigos 
 7- O git foi criado por Linus Torvalds
-8- Mais pa frente vou me aprofundar em git e github, vou terminar o curso pegar uma experiencia e vou fazer o curso de git e github
-
-
-DICAS DO CAPÍTULO 18:
+8- Mais pra frente vou me aprofundar em git e github, vou terminar o curso pegar uma experiencia e vou fazer o curso de git e GitHub
+9- Site para criar um QR CODE para outras pessoas acessar seu site: qr conde generator
+10- O GitHub só hospeda: HTML CSS e JavaScript na página 
+11- Push origin = repositório remoto 
+12- Para atualizar algo no seu repositório remoto, basta abrir o GitHub e clica em Push Origin
+13- Para atualizar o repositório local, basta ir no GitHub ir no summary required colocar um nome nele e clicar em commit to main
+14- Dica: siga pessoas, clone repositórios, explore o GitHub, ele tem muitas coisas boas para se ver
+15- Dica: entre em repositórios que deseja clonar clica em um botão verde em cima do repositório e clone ou faça download 
+16- DICA IMPORTANTEEEE: Veja esse vídeo para fazer trabalhos em outros pc, pcs que não tem suas pastas nada seu: https://youtu.be/c-MATEcIuPQ?si=hIYWttzgnVbkAWXg
+17- Para mexer em seus arquivos em outros pc faça isso: Entre no GitHub > entre na sua conta > va em file > va em options > va em git > clica nos 2 nomes > e save, pronto, faca suas alterações agora
+18- Para sair do pc: Fecha tudo (não feche o GitHub) > entre no GitHub > Repository > remove > marca a caixinha
+19- Para sair da sua  conta no GitHub: va em file > options > clique em sign out > depois va em git apague o nome e o email > esvazie a lixeira, pronto, você saiu de tudo
+20- Veja esse vídeo para deixar sua conta do GitHub mais segura: https://www.youtube.com/live/bsI6P_IM_hg?si=xC8oNEqz3THbFHe4
 
 
 
@@ -109,3 +118,102 @@ Tópicos deste vídeo:
 08:51 - Publicando um repositório remoto
 11:30 - Verificando se tudo funcionou
 13:30 - Tenha calma e paciência
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 05
+00:28 - O que aprendemos até aqui
+01:02 - Cursos de Linguagens C e C#
+01:55 - Abrindo o GitHub Desktop
+02:27 - Acessando o repositório atual
+03:19 - Editando arquivo e atualizando repositório
+04:25 - Realizando um Commit
+04:58 - Realizando um Push para o repositório remoto
+05:43 - Verificando as alterações no GitHub
+06:52 - Criando um novo repositório vazio
+08:06 - Publicando no repositório remoto
+08:53 - Mais um jeito de criar repositório
+10:29 - Ajude no engajamento do canal
+11:09 - Trabalhando com vários repositórios
+11:52 - Tornando um repositório público
+12:51 - Apagando repositórios locais
+14:23 - Apagando um repositório no GitHub
+15:38 - Já sabemos o básico de gestão
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 06
+00:27 - Pré-requisitos e configurações
+01:02 - Hospedagem profissional com ferramentas e cursos
+02:07 - Ativando o GitHub Pages
+03:11 - Qual vai ser o seu domínio do GitHub Pages
+03:57 - Acessando seus exercícios on-line
+04:43 - Personalizando seu arquivo README
+06:10 - Hospedando o projeto que criamos 
+08:20 - Abrindo o site do Projeto Android
+09:29 - Testando site no celular
+09:55 - Criando um QR code para seu site
+11:31 - Um notebook perfeito para aprender a programar
+12:27 - Iniciando o seu portfolio
+13:10 - Limitações do GitHub Pages
+13:35 - Precisa de uma hospedagem mais completa?
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 07
+00:30 - Nosso site apresentou um problema
+01:02 - Curso de ferramentas digitais para o mercado
+02:04 - Abrindo o repositório do projeto
+02:55 - Abrindo o projeto e inspecionando o código
+03:44 - Corrigindo o problema com a margem
+04:58 - Problema resolvido no repositório local 
+05:38 - Sincronizando as versões com o GitHub
+06:38 - A atualização demora pra funcionar
+07:36 - Ajude a divulgar o curso de HTML5
+08:10 - Quais serão os próximos passos?
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 08
+00:28 - Aprendendo a ser mais social
+01:00 - Precisa de alguém para criar seu site?
+02:03 - Entrando na sua conta GitHub
+02:35 - Como seguir programadores?
+03:11 - Procurando por usuários
+03:47 - O que posso buscar no GitHub?
+04:20 - Seguindo perfis
+04:52 - Seguindo marcas
+06:30 - GitHub Explore
+08:07 - Desenvolvedores mais famosos
+08:46 - Perfis bem famosos no GitHub
+10:23 - Ajudando projetos 
+10:51 - Entenda as Issues
+13:19 - Mensagem de Status
+14:21 - Canal Grátis do Telegram
+15:07 - Vamos aprender a clonar repositórios
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 09
+00:30 - O que aprendemos até aqui?
+01:28 - Alguém perto de você pode fazer seu site
+02:32 - Primeiro exemplo: clonando seus projetos
+04:29 - Clonando um repositório na prática
+06:21 - Cuidado ao baixar códigos prontos
+07:31 - Segundo exemplo: clonando projetos de terceiros
+08:42 - Quer ser avisado quando tiver novidades?
+09:27 - Encerramento
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 18, aula 10
+00:37 - Vou te dar duas dicas
+01:13 - Qual foi o ambiente criado
+01:49 - Outros cursos grátis e bem interessantes
+02:44 - O que instalar previamente no outro PC?
+03:33 - Como entrar na sua conta em outro PC
+04:00 - Passo importante quando o git der problema
+04:44 - Clonando o repositório no segundo PC
+05:50 - Abrindo a pasta do repositório clonando
+06:12 - Criando uma nova pasta local
+06:41 - Fazendo o commit local
+07:20 - Fazendo o push para o GitHub
+07:59 - Indo embora sem deixar rastros
+09:55 - Verificando se tudo ficou salvo no GitHub
+10:50 - Quer fazer esse curso com certificado?
+11:26 - Segurança forte no GitHub
+14:19 - Encerramento
