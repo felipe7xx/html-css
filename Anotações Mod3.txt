@@ -221,7 +221,7 @@ Tópicos deste vídeo:
 
 
 
-AULAS CAPÍTULO 18:
+AULAS CAPÍTULO 19:
 
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 19, aula 01
@@ -260,14 +260,17 @@ Tópicos deste vídeo:
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 19, aula 04
 
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 19, aula 05
 
-DICAS CAPITULO 18:
+
+DICAS CAPITULO 19:
 Dica: Relembre as posições: height: = pra cima,
 Dica: Posições do background-position: left top = lado superior esquerdo da imagem, top right = lado superior direito da imagem, left bottom = lado inferior esquerdo da imagem, right bottom = lado inferior direito da imagem, center = meio, center center = meio do meio, OBS IMPORTANTE: Qualquer dúvida veja a imagem wallpaper003 do exercícios 22.
 Dica: ainda está com duvida em relação as dicas acima ? veja essa aula: https://www.youtube.com/watch?v=RpcmGqvzWxQ&t=234s
 Dica:
 
-TAGS NOVAS E INTERESSANTES DO CAP 18:
+TAGS NOVAS E INTERESSANTES DO CAP 19:
 
 Código abaixo para fazer quadrado: 
     <div class="quadrado" id="q1">
