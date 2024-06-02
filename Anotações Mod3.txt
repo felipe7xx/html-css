@@ -351,5 +351,138 @@ no seu article estilize ele dessa forma:
             top: 200px;
 
         }
+código para deixar a caixa centralizada no meio de tudo:
+transform: translate(-50%, -50%);
 
 resumindo: o left e o top ali em baixo permite que você mova a box pra qualquer parte, basta configurar os px, porem isso so funciona se tiver o position relative na sua section e o position absolute no seu article 
+
+
+
+AULAS CAPÍTULO 20:
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 02
+00:31 - Uma dica muito importante
+01:13 - Curso grátis Tecnologias para o Futuro
+02:12 - Acessando o repositório para download
+03:08 - Descompactando o pacote ZIP
+04:00 - Salvando os arquivos no local certo
+04:42 - Atualizando os repositórios
+05:04 - Abrindo o editor de código
+05:36 - Que tal fazer o curso com certificados?
+06:11 - Os próximos passos
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 02
+00:31 - Uma dica muito importante
+01:13 - Curso grátis Tecnologias para o Futuro
+02:12 - Acessando o repositório para download
+03:08 - Descompactando o pacote ZIP
+04:00 - Salvando os arquivos no local certo
+04:42 - Atualizando os repositórios
+05:04 - Abrindo o editor de código
+05:36 - Que tal fazer o curso com certificados?
+06:11 - Os próximos passos
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 03
+00:44 - Já pensou em aprender linguagem C?
+01:37 - Acessando o repositório local e remoto
+02:28 - Criando o arquivo index.html
+03:24 - Delimitando o cabeçalho do site
+04:04 - Delimitando o rodapé do site
+04:17 - Criando os links do site
+05:55 - Testando se funcionou até aqui
+06:30 - Criando as sessões do site
+07:45 - Criando as quebras de linha
+08:33 - Olha uma ótima dica
+09:01 - Organizando os parágrafos
+09:42 - Testando o HTML mais uma vez
+10:46 - Deixando tudo preparado para estilo CSS
+11:51 - Já viu que temos muitos outros cursos?
+12:30 - Finalizamos o conteúdo HTML
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 04
+00:35 - O que fizemos até aqui?
+00:52 - Quer uma hospedagem profissional?
+01:57 - Configurando as classes das sessões
+03:15 - Começando as configurações de reset
+04:03 - Configurações de html e body
+05:06 - Configurações do header
+05:50 - Duas técnicas novas
+07:12 - Configuração dos links
+08:26 - Configurações do footer
+08:59 - Organização faz parte
+09:20 - Configurando as session
+10:22 - Configurações genéricas
+11:24 - Facilitando a leitura do visitante
+12:03 - Caixas transparentes de contraste
+13:33 - Atualizando os repositórios
+14:35 - Precisando de um computador para programar?
+15:31 - Finalizamos mais uma fase
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 05
+Colocando as fontes ao projeto - @Curso em Vídeo HTML5 e CSS3
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 06
+Imagens com efeito Parallax simples - @Curso em Vídeo HTML5 e CSS3
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 20, aula 07
+Hospedando o Projeto Cordel gratuitamente - @Curso em Vídeo HTML5 e CSS3
+
+
+
+
+DICAS CAPITULO 20:
+
+
+
+
+TAGS NOVAS E INTERESSANTES DO CAP 20:
+
+text-transform: uppercase; >>> TAG BOA DEMAIS PRA DEIXAR TODAS AS LETRAS DO SEU CODIGO MAIUSCULA
+
+font-variant: small-caps; >>> OUTRA TAG BOA DEMAIS PRA DEIXAR AS LETRAS MAIOR, POREM ESSA TAG DEIXA AS LETRAS MAIS BONITAS
+
+*{
+    margin: 0px;
+    padding: 0px;
+} >>> CODIGO PARA TIRAR TODOS OS ESPAÇOS QUE JA VEM NO SEU SITE DE PADRÃO
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+} >>> ESSES 2 CODIGOS ACIMA SERVEM PRA DEIXAR SEU LINK MAIS BONITO, [TO ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+} >> SEMPRE CONFIGURE ISSO PARA USAR EFEITOS PARALLAX NO SEU SITE
+
+line-height: 2em; >>> CODIGO PARA DAR UM ESPAÇO NOS SEUS PARAGRAFOS [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+padding-left: 30px; >>. CODIGO PARA TIRAR UM POUCO SEUS TEXTO DA PAREDE DO SEU SITE [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+:root{
+    --nomedafonte: coloque aqui o código da fonte 
+
+} >>> VARIAVEL EM CSS PARA VOCE PODE USAR FONTES DE MANEIRA MAIS RAPIDA, [ANOTANDO DE NOVO POR QUE ME ESQUECI SOBRE ISSO] DA PRA FAZER ISSO COM CORES TAMBEM
+
+font-size: 10vw; >>> CODIGO PARA ADAPTAR TEXTOS EM DIVERSAS TELAS, INVES DA IMAGEM FICAR NO MESMO TAMANHO, ELA VAI CRESCER OU DIMINUIR NA TELA DO USER
+
+display: inline-block; >>> CODIGO PARA ADAPTAR CAIXAS, ESSE CODIGO FAZ COM QUE O CONTEUDO DENTRO DA CAIXA FICA ADAPTAVEL COM A CAIXA E EM DIVERSAS TELAS
+
+text-shadow: 2px 2px 0px black; >>> CODIGO PARA DAR UMA SOMBRA NO SEU TEXTO [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO, DISLOCAMENTO LATERAL E VERTICAL, SÃO OS PRIMEIROS 2 NUMEROS, O ULTIMO E O ESPALHAMENTO NO FINAL VOCE BOTA A COR]
+
+background-attachment: fixed; >>> CODIGO MUITO BOM PRA DEIXAR SUA IMAGEM FIXADA, DA UM EFEITO MUITO TOP, CHAMAMO EFEITO PARALLAX
