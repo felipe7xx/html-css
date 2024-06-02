@@ -190,3 +190,6 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
 }
+
+@media screen and (max-width: 1020px){
+}
