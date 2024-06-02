@@ -263,6 +263,24 @@ Tópicos deste vídeo:
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 19, aula 05
 
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 19, aula 07
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 19, aula 06
+00:23 - O que aprendemos até aqui?
+00:53 - Já viu a história do João Vitor?
+02:04 - Analisando o exercício anterior
+02:56 - O que é vínculo ou attachment?
+03:26 - Resultado com fundo fixo
+05:06 - Usando as propriedades de fundo
+05:31 - Usando shorthand background
+06:00 - A ordem certa para shorthand
+06:54 - Uma única declaração para simplificar
+07:20 - Compartilhe o curso com seus amigos
+07:55 - Por que as imagens sumiram?
+10:06 - Próximo assunto que veremos
+
 
 DICAS CAPITULO 19:
 Dica: Relembre as posições: height: = pra cima,
@@ -299,3 +317,39 @@ código para por uma imagem no fundo do seu site:
         }
 código para mexer no tamanho da sua imagen:
 background-size: 100px 100px;
+
+código para deixar seu site com um texto na frente e uma imagem fixada no fundo:
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-attachment: fixed;
+
+shorthand do código acima:
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+AVISO DO SHORTHAND ACINMA: O cover no código acima ainda não esta funcionando: coloque o código abaixo para que o cover acima funcione
+            background-size: cover;
+
+Maneira de centralizar uma box verticalmente:
+Na sua section estilize ela dessa forma:
+
+        #container{
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+no seu article estilize ele dessa forma:
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 100px;
+            top: 200px;
+
+        }
+
+resumindo: o left e o top ali em baixo permite que você mova a box pra qualquer parte, basta configurar os px, porem isso so funciona se tiver o position relative na sua section e o position absolute no seu article 
