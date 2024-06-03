@@ -1,8 +1,139 @@
 TAGS E COMANDOS DE HTML5:
+<table></table> >>> TAG USADA PARA SE CRIAR TABELAS
+<tr></tr> >>> TAG PARA CRIAR LINHAS EM TABELA, USE DENTRO DA TAG TABLE
+<td>A1</td> >>> TAG PARA CRIAR DADOS NA TABELA, A TAG DE CIMA CRIA A LINHA, E COM O TD VC POE OS DADOS NA TABELA(USE ESSA TAG DENTRO DA TAG TR)
+    <table>
+        <thead> <!--Cabeça-->
+
+        </thead>
+        <tbody> <!--Corpo-->
+
+        </tbody>
+        <tfoot> <!--Pé-->
+
+        </tfoot>
+    </table> >>> CODIGO BASE DE UMA TABELA GRANDE
+ <caption></caption> >>> TAG PARA POR UMA TITULO NA SUA TABELA
 
 
 
-TAGS E COMANDOS DE CSS3:
+TAGS NOVAS E INTERESSANTES DO CAP 19:
+
+Código abaixo para fazer quadrado: 
+    <div class="quadrado" id="q1">
+
+    </div>
+código para estilizar o quadrado:
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+        }
+código para por uma imagem no quadrado:
+        div#q3{
+            background-image: url('imagens/pattern001.png');
+        }
+código para por uma cor gradiente no quadrado:
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+código para por uma imagem no fundo do seu site:
+        body{
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+código para mexer no tamanho da sua imagen:
+background-size: 100px 100px;
+
+código para deixar seu site com um texto na frente e uma imagem fixada no fundo:
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-attachment: fixed;
+
+shorthand do código acima:
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+AVISO DO SHORTHAND ACINMA: O cover no código acima ainda não esta funcionando: coloque o código abaixo para que o cover acima funcione
+            background-size: cover;
+
+Maneira de centralizar uma box verticalmente:
+Na sua section estilize ela dessa forma:
+
+        #container{
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+no seu article estilize ele dessa forma:
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 100px;
+            top: 200px;
+
+        }
+código para deixar a caixa centralizada no meio de tudo:
+transform: translate(-50%, -50%);
+
+resumindo: o left e o top ali em baixo permite que você mova a box pra qualquer parte, basta configurar os px, porem isso so funciona se tiver o position relative na sua section e o position absolute no seu article 
+
+text-transform: uppercase; >>> TAG BOA DEMAIS PRA DEIXAR TODAS AS LETRAS DO SEU CODIGO MAIUSCULA
+
+font-variant: small-caps; >>> OUTRA TAG BOA DEMAIS PRA DEIXAR AS LETRAS MAIOR, POREM ESSA TAG DEIXA AS LETRAS MAIS BONITAS
+
+*{
+    margin: 0px;
+    padding: 0px;
+} >>> CODIGO PARA TIRAR TODOS OS ESPAÇOS QUE JA VEM NO SEU SITE DE PADRÃO
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+} >>> ESSES 2 CODIGOS ACIMA SERVEM PRA DEIXAR SEU LINK MAIS BONITO, [TO ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+} >> SEMPRE CONFIGURE ISSO PARA USAR EFEITOS PARALLAX NO SEU SITE
+
+line-height: 2em; >>> CODIGO PARA DAR UM ESPAÇO NOS SEUS PARAGRAFOS [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+padding-left: 30px; >>. CODIGO PARA TIRAR UM POUCO SEUS TEXTO DA PAREDE DO SEU SITE [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
+
+:root{
+    --nomedafonte: coloque aqui o código da fonte 
+
+} >>> VARIAVEL EM CSS PARA VOCE PODE USAR FONTES DE MANEIRA MAIS RAPIDA, [ANOTANDO DE NOVO POR QUE ME ESQUECI SOBRE ISSO] DA PRA FAZER ISSO COM CORES TAMBEM
+
+font-size: 10vw; >>> CODIGO PARA ADAPTAR TEXTOS EM DIVERSAS TELAS, INVES DA IMAGEM FICAR NO MESMO TAMANHO, ELA VAI CRESCER OU DIMINUIR NA TELA DO USER
+
+display: inline-block; >>> CODIGO PARA ADAPTAR CAIXAS, ESSE CODIGO FAZ COM QUE O CONTEUDO DENTRO DA CAIXA FICA ADAPTAVEL COM A CAIXA E EM DIVERSAS TELAS
+
+text-shadow: 2px 2px 0px black; >>> CODIGO PARA DAR UMA SOMBRA NO SEU TEXTO [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO, DISLOCAMENTO LATERAL E VERTICAL, SÃO OS PRIMEIROS 2 NUMEROS, O ULTIMO E O ESPALHAMENTO NO FINAL VOCE BOTA A COR]
+
+background-attachment: fixed; >>> CODIGO MUITO BOM PRA DEIXAR SUA IMAGEM FIXADA, DA UM EFEITO MUITO TOP, CHAMAMO EFEITO PARALLAX
+
+        table{
+            width: 400px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            padding: 8px;
+        } >>> CODIGO PARA DEIXAR SUA TABELA MAIS PARECIDA COM UMA TABELA
 
 
 
@@ -14,7 +145,9 @@ O QUE VAMOS APRENDER NO MÓDULO 3:?
 4- No capitulo 20 vamos aprender a hospedar um site
 5- Vamos aprender a utilizar tabelas
 
-ANOTAÇÕES CAPÍTULO 18:
+
+
+ANOTAÇÕES CAPÍTULO E DICAS MOD 3:
 
 1- GIT é o sowfter que serve para armazenar versões antiga do seu projeto
 2- Por que usar o GIT: Por que ele é 100% gratuíto
@@ -36,10 +169,63 @@ ANOTAÇÕES CAPÍTULO 18:
 18- Para sair do pc: Fecha tudo (não feche o GitHub) > entre no GitHub > Repository > remove > marca a caixinha
 19- Para sair da sua  conta no GitHub: va em file > options > clique em sign out > depois va em git apague o nome e o email > esvazie a lixeira, pronto, você saiu de tudo
 20- Veja esse vídeo para deixar sua conta do GitHub mais segura: https://www.youtube.com/live/bsI6P_IM_hg?si=xC8oNEqz3THbFHe4
+21: Relembre as posições: height: = pra cima,
+22: Posições do background-position: left top = lado superior esquerdo da imagem, top right = lado superior direito da imagem, left bottom = lado inferior esquerdo da imagem, right bottom = lado inferior direito da imagem, center = meio, center center = meio do meio, OBS IMPORTANTE: Qualquer dúvida veja a imagem wallpaper003 do exercícios 22.
+23: ainda está com duvida em relação as dicas acima ? veja essa aula: https://www.youtube.com/watch?v=RpcmGqvzWxQ&t=234s
+
+DICAS CAPITULO 21 DE TABELAS ABAIXO:
+
+24: DICA IMPORTANTE: NUNCA USE TABELAS PARA CRIAR SEU SITE INTEIRO, USE ELAS APENAS PARA DAR INFORMAÇÕES E ETC
+25: DICA IMPORTANTE: TODAS AS TABELAS MAIS SIMPLES TEM ESSA HIERARQUIA: table = tabela =, table row = linha de tabela(dentro da tag tabela){ESSA TAG TABLE ROW SE CHAMA "<tr></tr>" EM HTML}, table header = cabeçalho de tabela, table data(ESSA TAG TABLE DATA SE CHAMA <td></td> EM HTML5) = dado de tabela
+26: O <TD></TD> E O <TR></TR> NÃO SÃO OBRIGATORIOS SER FECHADO, VOCE ESCOLHER SE VAI FECHAR A TAG OU NAO
 
 
+CODIGO DE CSS ABAIXO PARA DEIXAR SUA TABELA MAIS PARECIDA COM TABELA(TABELA SIMPLES)
+        table{
+            width: 400px;
+        }
+        td{
+            border: 1px solid black;
+        }
+border-collapse: collapse; >>> CODIGO PARA DEIXAR A BORDA DA SUA TABELA COLADA UMA NA OUTRA
+text-align: ; >>> TAG PARA ALAINHAR HORIZONTALMENTE SEUS CODIGO DE TABELA <TD></TD> >>> USE ESSE CODIGO PARA CENTRALIZAR SEU CODIGO A DIREITA OU ESQUERDA (VERTICALMENTE)
+vertical-align: ; >>> TAG PARA ALINHAR VERTICALMENTE SEUS <TD></TD> (NESSA TAG VOCÊ USA: Bottom = baixo, top = cima, middle = meio) USE ESSE CODIGO PARA CENTRALIZAR SEU CODIGO PARA CIMA OU BAIXO (HORIZONTALMENTE)
 
-AULAS CAPÍTULO 18:
+ANOTAÇÕES TABELAS GRANDES
+DICA: USE SEMPRE TH PARA TITULOS, OS TD VOCE USA PRO CONTEUDO, O QUE FOR VIR EM BAIXO DO TITULO 
+DICA: TITULL = TH, DADO = TD
+DICA: TITULO DE COLUNA VC BOTA UM SCOPE="COL" DENTRO DO CODIGO TH COMO SE FOSSE UMA CLASSE, ENTAO SE VC TEM UM TITULO E UMA COLUNA EM BAIXO, COLOQUE ISSO NO TH PARA AJUDAR OS NAVEGADORES A IDENTIFICAR SEU SITE
+DICA: SE FOR UM TITULO EM LINHA, MESMO QUE SEJA UM TH, VOCE BOTA SCOPE="ROW" PARA INDICIAR O SITE QUE O TITULO E UM TITULO PARA LINHA 
+
+CODIGOS TABELAS GRANDES
+
+    <table>
+        <caption>Titulo aqui dentro</caption>(TITULO)
+        <thead> <!--Cabeça--> >>> PARA TRABALHAR NA CABEÇA VOCÊ USA A TAG <th></th>
+
+        </thead>
+        <tbody> <!--Corpo-->
+
+        </tbody>
+        <tfoot> <!--Pé-->
+
+        </tfoot>
+    </table> >>> CÓDIGO BASE DE UMA TABELA GRANDE
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            CAPTION (TITULO)
+            THEAD (Cabeça)
+            TR, TD, TH
+            TBODY (Corpo)
+             TR, TD, TH
+            TFOOT(Pé)
+            TR, TD, TH
+    -->
+
+
+AULAS FEITAS NO MOD3:
 
 Tópicos desse vídeo:
 00:00 - O que vamos aprender no módulo 3?
@@ -218,11 +404,6 @@ Tópicos deste vídeo:
 11:26 - Segurança forte no GitHub
 14:19 - Encerramento
 
-
-
-
-AULAS CAPÍTULO 19:
-
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 19, aula 01
 00:30 - Objetivo de imagens de fundo
@@ -280,86 +461,6 @@ Tópicos deste vídeo:
 07:20 - Compartilhe o curso com seus amigos
 07:55 - Por que as imagens sumiram?
 10:06 - Próximo assunto que veremos
-
-
-DICAS CAPITULO 19:
-Dica: Relembre as posições: height: = pra cima,
-Dica: Posições do background-position: left top = lado superior esquerdo da imagem, top right = lado superior direito da imagem, left bottom = lado inferior esquerdo da imagem, right bottom = lado inferior direito da imagem, center = meio, center center = meio do meio, OBS IMPORTANTE: Qualquer dúvida veja a imagem wallpaper003 do exercícios 22.
-Dica: ainda está com duvida em relação as dicas acima ? veja essa aula: https://www.youtube.com/watch?v=RpcmGqvzWxQ&t=234s
-Dica:
-
-TAGS NOVAS E INTERESSANTES DO CAP 19:
-
-Código abaixo para fazer quadrado: 
-    <div class="quadrado" id="q1">
-
-    </div>
-código para estilizar o quadrado:
-        div.quadrado{
-            display: inline-block;
-            border: 2px solid black;
-            border-radius: 10px;
-            background-color: lightgrey;
-            width: 300px;
-            height: 300px;
-        }
-código para por uma imagem no quadrado:
-        div#q3{
-            background-image: url('imagens/pattern001.png');
-        }
-código para por uma cor gradiente no quadrado:
-        div#q2{
-            background-image: linear-gradient(to bottom, yellow, orange);
-        }
-código para por uma imagem no fundo do seu site:
-        body{
-            background-image: url('imagens/wallpaper001.jpg');
-        }
-código para mexer no tamanho da sua imagen:
-background-size: 100px 100px;
-
-código para deixar seu site com um texto na frente e uma imagem fixada no fundo:
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat; 
-            background-size: cover;
-            background-attachment: fixed;
-
-shorthand do código acima:
-            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
-AVISO DO SHORTHAND ACINMA: O cover no código acima ainda não esta funcionando: coloque o código abaixo para que o cover acima funcione
-            background-size: cover;
-
-Maneira de centralizar uma box verticalmente:
-Na sua section estilize ela dessa forma:
-
-        #container{
-            position: relative;
-            height: 500px;
-            padding: 10px;
-            background-color: purple;
-        }
-no seu article estilize ele dessa forma:
-        #conteudo{
-            position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: yellow;
-
-            left: 100px;
-            top: 200px;
-
-        }
-código para deixar a caixa centralizada no meio de tudo:
-transform: translate(-50%, -50%);
-
-resumindo: o left e o top ali em baixo permite que você mova a box pra qualquer parte, basta configurar os px, porem isso so funciona se tiver o position relative na sua section e o position absolute no seu article 
-
-
-
-AULAS CAPÍTULO 20:
-
 
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 20, aula 02
@@ -437,52 +538,22 @@ Tópicos deste vídeo:
 Hospedando o Projeto Cordel gratuitamente - @Curso em Vídeo HTML5 e CSS3
 
 
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 01
+Ainda podemos usar tabelas em HTML? - @Curso em Vídeo HTML5 e CSS3
 
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 02
+Sua primeira tabela em HTML - @Curso em Vídeo HTML5 e CSS3
 
-DICAS CAPITULO 20:
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 03
+Alinhando o conteúdo em tabelas - @Curso em Vídeo HTML5 e CSS3
 
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 04
+Aprendendo a trabalhar com tabelas grandes - @Curso em Vídeo HTML5 e CSS3
 
-
-
-TAGS NOVAS E INTERESSANTES DO CAP 20:
-
-text-transform: uppercase; >>> TAG BOA DEMAIS PRA DEIXAR TODAS AS LETRAS DO SEU CODIGO MAIUSCULA
-
-font-variant: small-caps; >>> OUTRA TAG BOA DEMAIS PRA DEIXAR AS LETRAS MAIOR, POREM ESSA TAG DEIXA AS LETRAS MAIS BONITAS
-
-*{
-    margin: 0px;
-    padding: 0px;
-} >>> CODIGO PARA TIRAR TODOS OS ESPAÇOS QUE JA VEM NO SEU SITE DE PADRÃO
-
-a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover{
-    text-decoration: underline;
-} >>> ESSES 2 CODIGOS ACIMA SERVEM PRA DEIXAR SEU LINK MAIS BONITO, [TO ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
-
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-} >> SEMPRE CONFIGURE ISSO PARA USAR EFEITOS PARALLAX NO SEU SITE
-
-line-height: 2em; >>> CODIGO PARA DAR UM ESPAÇO NOS SEUS PARAGRAFOS [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
-
-padding-left: 30px; >>. CODIGO PARA TIRAR UM POUCO SEUS TEXTO DA PAREDE DO SEU SITE [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO]
-
-:root{
-    --nomedafonte: coloque aqui o código da fonte 
-
-} >>> VARIAVEL EM CSS PARA VOCE PODE USAR FONTES DE MANEIRA MAIS RAPIDA, [ANOTANDO DE NOVO POR QUE ME ESQUECI SOBRE ISSO] DA PRA FAZER ISSO COM CORES TAMBEM
-
-font-size: 10vw; >>> CODIGO PARA ADAPTAR TEXTOS EM DIVERSAS TELAS, INVES DA IMAGEM FICAR NO MESMO TAMANHO, ELA VAI CRESCER OU DIMINUIR NA TELA DO USER
-
-display: inline-block; >>> CODIGO PARA ADAPTAR CAIXAS, ESSE CODIGO FAZ COM QUE O CONTEUDO DENTRO DA CAIXA FICA ADAPTAVEL COM A CAIXA E EM DIVERSAS TELAS
-
-text-shadow: 2px 2px 0px black; >>> CODIGO PARA DAR UMA SOMBRA NO SEU TEXTO [ANOTANDO DE NOVO POR QUE SEMPRE ESQUEÇO, DISLOCAMENTO LATERAL E VERTICAL, SÃO OS PRIMEIROS 2 NUMEROS, O ULTIMO E O ESPALHAMENTO NO FINAL VOCE BOTA A COR]
-
-background-attachment: fixed; >>> CODIGO MUITO BOM PRA DEIXAR SUA IMAGEM FIXADA, DA UM EFEITO MUITO TOP, CHAMAMO EFEITO PARALLAX
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 05
+Caption e Escopo de títulos em tabelas - @Curso em Vídeo HTML5 e CSS3
