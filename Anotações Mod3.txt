@@ -223,7 +223,55 @@ CODIGOS TABELAS GRANDES
             TFOOT(Pé)
             TR, TD, TH
     -->
+        tbody > tr:nth-child(2n){
+            background-color: yellow;
+        } >>> CODIGO PARA FAZER UM EFEITO ZEBRADO NA SUA TABELA >> ODD IMPA, Even = PAR, VOCE PODE USAR ODD E EVEN PARA SEU EFEITO ZEBRADO COMEÇAR OU NO IMPA OU NO PAR
 
+        tbody > tr:nth-child(odd){
+            background-color: rgb(255, 0, 0);
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgrey;
+        } >>> VOCE TAMBEM PODE COMEÇAR ASSIM, NO CASO O DE CIMA E IMPA PQ É ODD, E O DE BAIXO E PAR, SENDO ASSIM, A COLUNA IMPA FICA COM A COR ESCOLHIDA E A PAR FICA COM A COR Q VC ESCOLHEU
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color:grey;
+        } >>> CODIGO PARA POR UM CABEÇALHO FIXO NA SUA TABELA, OBS: SUA <table></table> TEM QUE TER UM POSITION: relative;
+        OBS: O CODIGO ACIMA PODE NÃO FUNCIONAR CORRETAMENTE EM ALGUNS NAVEGADORES
+
+colspan="2" >>> CODIGO PARA MESCLAR SEUS DADOS, VOCE VAI MEIO QUE EXPANDIR UM TD PARA OUTRA COLUNA[LADO, COLUNA] (colspan é coluna, não é linha)
+<td colspan="2">B</td> >>> CODIGO EXEMPLO DA LINHA ACIMA
+rowspan="3" >>> CODIGO PARA MESCLAR SEUS DADOS, PARA BAIXO, EM LINHA,[LINHA BAIXO]
+<td rowspan="3">F</td> >>> CODIGO EXEMPLO DA LINHA ACIMA
+TA COM DUVIDA SOBRE MESCLAGEM AINDA ? VEJA ESSA AULA: https://www.youtube.com/watch?v=olZgL09uDAU
+
+        <colgroup> 
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup> >>> CODIGO PARA ESTILIZAR COLUNA, POR EXEMPLO, EU QUERO ESTILIZAR APENAS UMA COLUNA, EU CRIO A QUANTIDADES DE COL IGUAL A QUANTIDADES DE COLUNA, BOTO UMA CLASS E ESTILIZO
+TÁ COM DUVIDA SOBRE O CODIGO ACIMA ? VEJA O EX 023 TABELA 005, OU A AULA:https://www.youtube.com/watch?v=1Ro7rjINNb0&t=244s
+DICA: VOCE PODE COLOCAR spawn="Número" no seu código de col, se você colocar 2 no numero ali, e você tiver 4 coluna, você vai estilizar a primeira, e a segunda e a terceira vai ficar com o mesmo estilo, pq no span vc colocou 2
+coloque o Span depois das "" do da class 
+
+        div#container{
+            overflow-x: auto;
+        } >>> CODIGO PARA DEIXAR SUA TABELA RESPONSIVA, COM ESSE CODIGO INVES DA SUA TELA FICAR COM ROLAGEM, APENAS A TABELA VAI TER ROLAGEM
+[OBSSSSSSSSSSSSSSSSSSSS:] PARA USAR O CODIGO ACIMA, ENVELOPE SUA TABLE INTEIRA COM UMA DIV, DO INCIO DA <TABLE> ATE A </TABLE>
+
+
+ASSUNTO DE SCOPO ABAIXO: [ASSUNTO IMPORTANTE]
+Para que saver os scopos ? Os scopos ajuda os navegadores a identificar melhor a sua tabela, quantas colunas, linhas e etc tem nela.
+
+scope="col" >>> Use esse Scope para definir Ths que estão em cima das colunas, ou seja eles estão como se fossem títulos
+scope="colgroup" >>> Esse Scope tem a mesma função do de cima, porém esse pega para todas as colunas, por isso é colgroup, o de cima é apenas para uma coluna, (Use esse sempre que o Th ocupar mais de uma coluna)
+scope="row" >>> Scope para linhas, ou seja na frente do Th tem dados, (Tds), então quando estiver em linha use row
+scope="rowgroup" >>> Tem a mesma função do row, porem esse pega varias linhas, o de cima pega apenas uma linha
+Tá com duvidas sobre scope ? veja a tabela 004 do ex 023 ou essa aula aqui: https://www.youtube.com/watch?v=muKp1-jcs3Q&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=36
 
 AULAS FEITAS NO MOD3:
 
@@ -557,3 +605,42 @@ Aprendendo a trabalhar com tabelas grandes - @Curso em Vídeo HTML5 e CSS3
 Tópicos deste vídeo:
 00:00 - Módulo03, Capítulo 21, aula 05
 Caption e Escopo de títulos em tabelas - @Curso em Vídeo HTML5 e CSS3
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 06
+Efeito Zebrado na tabela com HTML e CSS;
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 07
+Cabeçalho fixo em tabelas grandes - @Curso em Vídeo HTML5 e CSS3
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 08
+Mesclagem de células - @Curso em Vídeo HTML5 e CSS3
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 09
+Desafios (parte 1) - @Curso em Vídeo HTML5 e CSS3
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 10
+Exemplo de tabela completa - @Curso em Vídeo HTML5 e CSS3
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 11
+Escopos de grupo - @Curso em Vídeo HTML5 e CSS3
+
+Capítulo 21 Aula 12 – Desafios (parte 2)
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 12
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 13
+Agrupando Colunas com colgroup - @Curso em Vídeo HTML5 e CSS3
+
+
+Tópicos deste vídeo:
+00:00 - Módulo03, Capítulo 21, aula 14
+Tabelas responsivas - @Curso em Vídeo HTML5 e CSS3
