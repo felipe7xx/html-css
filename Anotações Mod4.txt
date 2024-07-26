@@ -49,10 +49,29 @@ tá com duvidas sobre as seguranças acima ? veja o ex0023 pag007 e iframe004, o
 ANOTAÇÕES PROJETO CELULAR (CAPÍTULO 23)
 
 Dicas:
+<main></main> >>> Conteúdo principal 
+<section></section> >>> Sessão 
 
 
 Tags novas e interessantes 
 
+
+TAGS CSS:
+height: 100vh; >>> Altura total do navegador
+width: 100vw; >>> Largura total
+background-size: cover; >>> Esse código faz com que uma imagem pegue a tela inteira, basta estilizar ela
+border-radius: 50%; >>> Tag para deixar sua imagem redondinha
+text-align: right; >>> tag para posicionar itens a direita
+box-sizing:  border-box; >>> Tag para deixar borda separada, no caso a borda so sera aplicada a uma das imagens, quando alguém passar o mouse acima
+transform: translate(-10px, -10px); >>> Tag para da uma leve movida quando o mouse passar por cima de algum item seu
+transition: transform 1s; >>> Tag para da uma suavizada nos seus hover
+transition: transform 1s, border 1s; >>> Mesma função do código acima, porem agora a borda também faz o hover
+display: block; >>> Essa tag faz com que links fiquem na parte debaixo do site
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        } >>> Esse código esconde a scroll bar do seu site
 
 
 AULAS DO MODULO 4
@@ -180,3 +199,87 @@ Tópicos deste vídeo:
 07:50 - Habilitando Hospedagem Grátis
 08:56 - Esse curso pode ter certificado
 09:30 - O que vamos fazer a seguir?
+
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 23, aula 03
+01:04 - Você pode ser uma franquia da Hostnet
+02:25 - Criando a estrutura básica do site
+03:28 - Criando o CSS externo
+04:37 - Estilos para html e body
+05:06 - Configurando estilo para o main
+05:52 - Posicionando e centralizando as sections
+07:32 - Configurando as imagens
+08:33 - Ajustando estilo da imagem
+10:04 - Ajustando imagem de fundo no body
+11:19 - Você pode fazer muitos outros cursos
+11:57 - Atualize seus repositórios local e remoto
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 23, aula 04
+00:52 - Você já pensou em aprender Linux?
+01:50 - Criando o arquivo home.html
+02:50 - Criando o estilo CSS interno
+04:10 - Carregando a página home no iframe
+05:19 - Configurando o estilo do iframe
+07:30 - Atualizando os repositórios
+08:00 - Precisando de um notebook para estudar?
+08:55 - O que vamos aprender a seguir?
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 23, aula 05
+01:02 - Curso grátis de análise de dados
+02:05 - O que fizemos até aqui?
+02:37 - Começando a criar os botões
+04:30 - Criando o estilo CSS dos botões
+06:11 - Criando botões redondos com CSS
+07:22 - Digitando várias linhas ao mesmo tempo
+08:11 - Ajude o canal a crescer
+08:52 - Criando o efeito do botão
+10:52 - Animação do botão na tela
+13:05 - Vamos fazer os botões funcionarem?
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 23, aula 06
+00:26 - Um segredo revelado
+01:17 - Uma hospedagem sem limites para o seu site
+02:22 - Corrigindo um problema prévio
+03:04 - As imagens que vão compor o projeto
+03:44 - Criando os arquivos HTML para cada link
+05:00 - Criando o estilo CSS para a página
+06:25 - Escondendo a barra de rolagem
+06:55 - Carregando a página quando clicar no botão
+08:24 - Criando um estilo externo
+09:48 - Criando as páginas extras
+11:28 - Acompanhe nossas redes sociais
+12:05 - Fazendo a página para rede social
+13:44 - O que vamos fazer a seguir?
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 23, aula 07
+01:03 - Cursos de redes e arquitetura de computadores
+02:13 - Como ficou o projeto pronto
+03:20 - Tirando o print de cada tela
+04:23 - Unindo todas as fotos com Gimp
+05:15 - Redimensionando a imagem inicial
+05:50 - Unindo todas as fotos
+07:10 - Removendo a parte inutilizada
+07:42 - Reduzindo a imagem para arquivo mais leve
+08:24 - Exportando a imagem final
+10:26 - Um notebook ótimo para programar
+11:22 - Encerramento do projeto
+11:43 - O que vamos aprender no próximo capítulo?
+
+Tópicos deste vídeo:
+00:00 - Módulo 04, Capítulo 24, aula 01
+01:27 - O que é um formulário?
+02:43 - Uma história de superação
+03:54 - Alguns exemplos de formulários
+05:23 - Preparando todo o ambiente
+06:40 - Criando o primeiro formulário
+07:51 - A tag form
+08:23 - A tag input do tipo text
+09:50 - Botão de envio submit
+10:30 - Perguntas que precisam de resposta
+11:26 - Ajude a compartilhar nossos cursos
+12:00 - O que vamos aprender em seguida
