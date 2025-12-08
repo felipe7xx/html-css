@@ -1,0 +1,249 @@
+MODULO 2
+
+ANOTAÇÕES DE HTML 
+
+<h1> >>>>> Rara por um titulo >> OBS: Não pode conter espaços na tag
+</h1> >>>>> Rara fechar o titulo >> OBS: Não pode conter espaços na tag 
+<p> >>>>> Para por um parágrafo
+</p> >>>>> Para fechar um parágrafo
+<img scr="foto.png" alt="Exemplo de foto"> >>>>> Para por uma foto
+<!DOCTYPE html> >>>>> Isso deve ser colocado no incio do codigo, para dizer ao google que o site é em HTML
+<html lang="pt-br"> >>>>> Para o google pode indicar a lingua do site e por tradução 
+<img src="Coloque aqui o caminho da imagem" alt="Coloque aqui um texto alternativo"> >>> Comando para por imagem no site
+DICA >>>>>>> use CTRL e ESPAÇO para selecionar o arquivo da imagem de uma maneira mais facil
+<link rel="shortcut icon" href="Coloque aqui o caminho do seu favicon" type="image/x-icon"> >>> comando para por favicon no seu site 
+DICA >>>>>>> use CTRL e ESPAÇO para selecionar o arquivo da imagem de uma maneira mais facil
+lorem >>>> cria um texto com um montão de baboseira escrita
+<b>Coloque aqui seu texto para ficar em negrito</b> >>>>>>>> tag para por um texto em negrito
+<strong>Coloque aqui o seu texto</strong> >>>>>>> para por um texto em destaque
+CRTL + P >>>>>>>> COMANDO UTIL PARA COLOCAR TEXTO DENTRO DE CODIGO, use >bb 
+<EM></em> >>>>>>>>> para por negrito na sua letra
+<mark></mark> >>>>>> para criar um marcado de texto no seu texto do seu site
+small >>>>>> para dar letras pequenas 
+id="principal" >>> coloque isso dentro de um codigo que vc queria que seja diferente dos outros para o css
+<strong></strong> >>> tag usada para deixar um texto m negrito, envelope o texto com essa tag e ele ficara em negrito
+
+
+
+ANOTAÇÕES DE CSS
+
+font-family >>> para por uma fonte 
+font-size >>> definir o tamanho da fonte, use sempre px ou em, 1em igual a 16px
+text-decoration: underline; >>> para por anderline em um texto
+font-weight: bolder; >>>
+font-style: italic; >>> 
+
+font-family: 'work Sans', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-style: italic; >>> Codigo para decorar texto h1
+
+font: italic bolder 3em 'work Sans', sans-serif; >>> esse codigo tem a mesma função do primeiro porem oculpa menas linhas
+font-style, font weidht, font-size, font-family >>> tem que usar esse ordem se nao o comando de cima nao funciona
+
+        @font-face {
+            font-family: 'coloque aqui o nome da sua fonte, qualquer nome ja vai, OBS: Coloque o mesmo nome nos font-family' ;
+            src: url('Coloque o nome do arqvuivo da fonte') format('truetype'), url('Coloque o nome do arqvuivo da fonte') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        } >>> Codigo para por uma fonte de um arquivo 
+text-align: ; >>> Comando para centralizar texto, center(meio)right(direita)left(esquerda)
+text-indent: 30px; >>> Comando para da uma espaço na primeira fileira de um paragrafo
+@charset "UTF-8"; >>> codigo para ser compativel com acentos, use sempre no incio do css
+border: 1px solid black; >>> tag para fazer uma borda
+display: inline-block; >>> tag para por um texto do lado do outro em forma de caixa
+a:active >>> /* comando para dar efeito ao clicar em algum link*/ (Pseudoclass)
+a:hover >>> /* comando para dar efeito de hover a links*/ (Pseudoclass)
+a:visited >>> /* comando para dar efeito em links ainda nao visitados*/ (Pseudoclass)
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        } >> codigo para criar uma borda
+margin: auto; >>> tag para deixar uma caixa no meio centralizado, sempre use isso 
+display: inline; >>> para transformar algo em box level em inline level
+display: block; >>> para transformar algo em inline level em box level
+box-shadow: 1px 1px 1px black; >>> codigo para fazer sombra em uma caixa
+border-radius: 20px; >>> Codigo para fazer uma bordaaaaaaaaaaaaaaaaaa
+
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            background-color: white;
+            border-radius: 50px; >>> codigo pronto para criar uma bola
+
+
+            border: 15px solid black;
+            padding: 10px;
+            border-image-source: url(bola.png);
+            border-image-slice: 20;
+            border-image-repeat: repeat; >>> codigo para por uma borda de imagem 
+           
+            Short rende codigo acima  order-image: url('bola.png') 27 stretch;
+     
+            background: linear-gradient(to bottom, #00ff00, #ffffff); >>> CODIGO PARA POR COR EM GRADIENTE
+
+        @font-face {
+            font-family: ;
+            src: url('Coloque aqui o url do arquivo da fonte') format();
+        } >>> codigo para por uma fonte instalada
+
+
+ATALHOS LEGAIS DO VS CODE:
+CTRL + D >>> esse atalho server pra escrever/mudar varios textos de uma vez
+CTRL + F >>> Procurar por palavras escritas no seu codigo
+CTRL + P >>> Procurar por arquivos, mesma função do de cima soq pra arquivos
+ALT + SHIFT + SETA PRA CIMA OU PRA BAIXO >>> Isso serve para criar mais linhas de um codigo, pra baixo cria linhas pra baixo e pra cima pra cima
+CTRL + SHIFT + ALT >>> Posso escrever varias linhas com esse atalho
+
+
+DICAS DAS AULAS/ANOTAÇÕES
+Dica: Johannes Gutenberg criou a prensa mecanica
+Dica: Medidas absolutas cm, mm, in, pt, px, pc
+Dica: Medidas relativas em, ex, rem, vh, vw, %
+Dica: Use sempre medidas px e em 
+Dica: 1em equivale e 16px
+Dica: O X é o incio de todas as fontes e tambem e importante por causa da altura
+Dica: Johannes Gutenberg criado da prensa mecanica
+Dica: Johhanner gutenberg deu a revolu~ção da imprensa
+Dica: weidht = peso, width = largura, height = tamanho.
+Dica: Site com diversas fontes: https://fonts.google.com/?query=work+sans
+Dica: Site para instalar fontes: da fonte.com
+Dica: Codigo para por fonte intalada do site acima:
+        @font-face {
+            font-family: ;
+            src: url('Coloque aqui o url do arquivo da fonte') format();
+        }
+Dica: tipos de format do codigo acima, opentype(otf) truetype(ttf) embedded-opentype, tryetype-att (Apple advanced typograph) , svg
+Dica: Link do git hub do professor guanabara: https://github.com/gustavoguanabara
+Dica: Neil Patel, mandaram guardar esse nome na aula pdf 13 pois vou ouvor mais sobre ele em outros locais
+Dica: Adobe color, site para pegar cores, paletas de cores
+Dica: Extensão do chrome para pegar fontes, fonts ninja
+Dica: Site para pegar fontes de imagens: https://www.whatfontis.com, site muito bom segundo o guanabara
+Dica: Site para pegar fontes de imagens: https://www.fontsquirrel.com, site mais ou menos o de cime é melhor
+Dica: Site para pegar fontes de imagens: https://www.myfonts.com, bom também, melhor doq o de cima eu acho, mas o primeiro ainda é melhor
+Dica: O professor guanabara ensina a usar esses sites acima nesse video: Módulo 02, Capítulo 14, aula 09
+Dica: tem 3 tipos de alinhamentos, a esqueda, a direita, e centralizado
+Dica: right Direita, center texto centralizado, left texto a esquerda
+Dica: em HTML é id = em CSS é #
+Dica: em HTML é class = em CSS é .
+Dica em HTML é pseudoclass = em CSS é :
+Dica: ID é unico apenas para 1, class é multiplos, pode usar o mesmo em varias coisas
+Dica: Height é altura, width é largura
+Dica: Voce pode criar codigos mais rapidos assim: div>h1>P 
+Dica: pseudoclass 1 : pseudoelemento 2 ::
+Dica: https://www.blogson.com.br/lista-de-simbolos-do-html-5/ site com varios simbolos de html 5
+Dica: # = id
+Dica: . = class
+Dica: : = pseudoclass
+Dica: :: = pseudoelemento
+Dica: > = clildren
+Dica: height altura
+Dica: width largura
+Dica: border linha que circula seu conteudo
+Dica: Padding para dar um espaço uma engordada
+Dica: Margin borda pra fora uma margem
+Dica: outline para da um contorno ou traçado 
+Dica: temos caixas do estilo box level e inline level
+Dica: temos caixas em inline-level
+Dica: box-level sempre pula uma linha ora baixo e ocupa toda a largura do navegador  
+Dica: inlive-level, ele pula pro lado e continua o conteúdo
+Dica: as anotações de cima são de caixas 
+Dica: a tag <div> é uma caixa em box-level
+Dica: a tag <span> ela cria uma caixa em inline-level
+Dica> user agent, é o nosso navegador
+Dica: Tipos de caixa box-level, <div> <h1>-<h6> <p> <main> <header> <nav> <article> <aside> <footer> <form> <video>
+Dica: Tipos de caixa inline-level, <span> <a> <code> <small> <strong> <em> <sup>-<sub> <label> <button> <input> <selec>
+Dica: margin top = margin de cima, margin right = margin da direita = margin bottom = margin de baixo, margin left = margin da esquerda. OBS<ESSAS MESMAS ANOTAÇÕES SERVEM PARA O PADDIN>
+Dica: Outline fica entre a borda e a margin 
+Dica: cima direita baixa esquerda, coloque os paddin, margin desse jeito.
+Dica: paddin espaço interno, margin expaço externos
+Dica: Nav = menu, Header cabeçalho, Main = conteúdo principal, Section = Seções 
+Dica: inset para por sombra por dentro 
+
+
+DICAS E ANOTAÇÕES DO CAPITULO 17 
+
+Dica: São os principais itens para o planejamento de um site: Layouts, cores e fonte
+Dica: Esse site serve para planejar seu projeto, muito bom ele: https://wireframepro.mockflow.com
+Dica: Esse site serve para pegar cores pro seu projeto, muito bom ele: https://color.adobe.com/pt/create/color-wheel
+Dica: Esse site serve para pegar fontes pro seu projeto: https://fonts.google.com/specimen/Bebas+Neue?preview.text=bebas%0A&query=bebas
+Dica: Esse site serve para pegar fontes pro seu projeto, caso não ache fonte no de cima ou queira outra veja nessa: https://www.dafont.com/pt/
+Dica: TAG <header></header> >>> tag de cabeçalho, caixa de cima, inicio 
+Dica: TAG <nav></nav> >>> tag de navegação, usada pra por geralmente links e etc
+Dica: TAG <main></main> >>> tag de conteúdo principal, para conteúdos principais
+Dica: TAG <article></article> >>> tag usada para argito, geralmente usada dentro da tag main, para por artigos, coisas escritas e etc
+Dica: TAG <footer></footer> >>> tag usada geralmente para fazer um rodapé na parte de baixo do site
+Dica: TAG <aside></aside> >>> tag usada geralmente para conteudos externos, que fica dentro de uma main ou tag article
+Dica: TAG <abbr title="nome da abreviação">li aqui dentro</abbr> >>> essa tag serve para abreviar listas do li
+Dica: é possivel usar variaveis em css, se eu quiser defirnir cores eu posso fazer isso que está logo abaixo:
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+} >>> agora eu posso usar cores definidas, para decorar meu site, basta dar CTRL + ESPAÇO e descer ate o final e selecionar qual cor você quer
+COMO FAZER UMA LISTA ? crie a tag <ul><li>Trota<li/></ul> dentro da tag Ul crie <li><li/>
+Dica: Tem como tirar espaços de caixas, geralmente h1. h2, p e etc, eles vem com margin e padding ja definidos e isso de vez enquando atrapalha, pq fica espaço aonda voce nao quer: coloque o codigo abaixo nos css pra poder arrumar isso
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Dica: Segue abaixo o codigo para deixar o seu site responsivo, adaptavel para varias telas, vale lembrar que tem mais codigos prsa ajudar nisso:
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+Dica: Segue abaixo o codigo para deixar uma imagem responsiva, OBS: caso você tenha uma imagem pequena, coloque ela pra aparecer primeiro, se tiver uma grande coloque ela para aparecer em uma tela grande com o codigo abaixo:
+        <picture>
+            <source media="(max-width:escolha os px, recomendo 800px, lembre que a imagem na frente ira aparecer se a tela for maior que 600px, vc pode por min-widht tbm)" srcset="coloque aqui o caminho da imagem">
+            <img src="imagens/irina-blok.jpg" alt="irina block">
+        </picture>
+Dica: segue abaixo um exemplo, coisa basica de como deixar suas imagens responsiva:
+img{
+    width: 100%;
+}
+Dica: segue abaixo um exemplo, coisa basica de como deixar seu site responsiva:
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+} >>> oq importa é o min e o max
+Dica: paddin sem nada é um paddin normal, em cima embaixo esquerda e direita, então voce colocando so paddin vc edita todos esses duma vez
+Dica: a tag text-indent: 30px; serve para da uma espaço no incio de uma paragrafo
+Dica: a tag line-height: -2em; serve para da um espaço no texto, exemplo, eu posso ter um texto em cima escrito a e um em baixo escrito b eu posso usar essa tag pra distanciar os 2
+Dica: TAG para dar para  gradiente muito bom ao seus titulos e etc background-image: linear-gradient(to right, var(--cor1), transparent);, ele vai começar com uma cor e vai ficar transparente no final
+Dica: a tag list-style-position: inside; serve para deixar a bolinha da lista pra dentro
+Dica: a tag columns: 2; serve para deixar uma lista dividida em 2
+Dica: https://emojipedia.org site para pegar emoj pro seu site
+Dica: TAG para decorar a bolinha do UL list-style-type: '\codigo do emoji\00A0'; coloque uma \ na frente para indicar o emij
+Dica: a tag margin: -10px -10px 0px -10px; em baixo nao tem margin negativa, lembra-se, esquerda direita baixo e em cima
+Dica: TAG segue abaixo uma tag para enfeitar seu link que é externo: 
+a.externo::after{
+    content: '\1F517';
+}
+Dica: segue abaixo um codigo para deixr videos do youtube mais responsivos:
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

@@ -1,0 +1,71 @@
+MODULO 4
+
+Dica: Iframe = Frame Inline
+Dica: Iframe = Quadros em linha
+Dica: Tamanho padrão dos iframes: 300x150px 300 altura, 150 largura
+Dica: Você pode configurar alturas e larguras direto nos iframes, como se fosse um stilo em linha mesmo, porém se você estilizar eles nos css, o que vai valer vai ser os css, o estilo em linha não vale mais se tiver css
+Dica: Se não tiver CSS em nenhum dos iframes o que vai valer vai ser o tamanho padrão dele, de 300 de altura por 150 de largura
+Dica Iframe: auto, Caso o conteúdo exceda o limite do iframe vai ter rolagem, yes, independe do conteúdo vai ter rolagem, no, sem rolagem nenhuma, (Dica pro código scolling), [isso não funciona em todos navegadores]
+Dica Link: Tem como você abrir criar um link, e colocar pra quando alguém clicar nesse link a pagina abrir em um frame, pra isso você, vai no frame, coloca name="nome" depois vai no link e colocar target="nome"
+Dica TAGS: Você pode fazer HTML dentro da tag iframe, por exemplo <h1>Iframe</h1>, você pode colocar um texto dentro de um iframe usando um h1, pra isso você colocar essa tag dentro do frame srcdoc="" e la começa a codar
+
+Dica: Você pode incorporar um mapa, basta ir no google maps, colocar o destino que você quer, e compartilhar e pegar o cod html(DICA DA BOA, VEJA EXEMPLOS NA AULA EX024, IFRAME006)
+Tá com duvidas ? veja esse vídeo: https://www.youtube.com/watch?v=dzhJsc1YszU&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=9
+
+PROBLEMAS QUE O IFRAME PODE TE TRAZER:
+Problema: USEEEE IFRAME COM COMODERAÇÃO, NÃO EXAGERE, IFRAME NÃO É TÃO BOM, MAS TAMBÉM NÃO É RUIM, SÓ NÃO PODE ABUSAR DO USO DELE
+Problema: Ao usar iframes para mostrar outros sites e etc, pode ser que o bot do google que ve os sies, ele não consiga ler esses iframes, assim deixando seu site com uma negatividade 
+Problema: Ao usar iframes pode ser que alguns leitores de telas não consigam identificar seus iframes, sendo assim, uma pessoa deficiente q usa leitor de tela não iria conseguir ver o seu iframe
+Problema: Tome cuidado aos sites que você vai adicionar aos seus iframes, sites que foram hackados e etc podem te trazer diversos problemas 
+
+COMANDOS DE IFRAME:
+<iframe src="link do site" frameborder="0"></iframe> >>> Esse comando cria meio que uma janela no seu site, com o link que você colocar no iframe. (Alguns sites tem proteção conterá iframe)
+scolling="no" >>> Para configurar rolagem, Use: auto, yes,  e no, Leia a Dica Iframe para ver a função desses códigos
+<iframe src="pagina001.html"0 height="500" width="500"></iframe> >>> Você pode colocar seus sites em iframes, basta esta tudo na mesma pagina
+        iframe{
+            display: block;
+            margin: auto;
+        } >>> Código para centralizar um iframe
+target="nome" >>> Abrir um link em um frame, (Coloque o nome no frame)
+name="frame" >>> definir um nome a um frame, (usado para juntar com a tag acima)
+
+PROTEGENDO OS NOSSOS IFRAMES DICAS E TAGS ABAIXO:
+sandbox="sandbox" >>> Coloque isso dentro do seu iframe, esse código basicamente bloqueia capturas de informações, (sandbox é o máximo de proteção, ele vai da o seu máximo para proteger seu site)
+sandbox="allow-same-origin" >>> Esse sandbox é o quase o mesmo que o de cima, porem se o site q estiver dentro do iframe, for seu, no caso da mesmo origin, ele vai deixar as coisas passar dboa
+sandbox="allow-forms >>> Se você adicionar isso no seu sandbox ele vai permitir formulários, ent os usuário vao poder enviar os formulários 
+sandbox="allow-scripts >>> Se você adicionar isso no seu sandbox, ele vai permitir que você use scripters nele, ou seja linguagens de programação 
+sandbox="allow-scripts" >>> esse é o sandbox de cima, se você quer liberar scripters no seu iframe, use isso, ele bloqueara todo o resto, mas o script nao
+referrerpolicy="no-referrer" >>> Se você colocar isso no seu iframe, todo o site que estiver dentro do iframe, não vai colocar nenhuma informação do usuário 
+
+referrerpolicy="no-referrer" >>> Use sempre isso no seu site
+Sandbox você coloca apenas se você não confiar mesmo, se você estava sem sandbox apenas com o referrer, e o seu site começou a da problema, ATIVE O SANDBOX!!!
+REGRA CLARA: NÃO ABRA A PORTA PARA QUALQUER PESSOA NA SUA CASA (NÃO COLOQUE QUALQUER SITE NO SEU SITE, PENSE MUITO BEM ANTES DE SAIR COLOCANDO SITES)
+tá com duvidas sobre as seguranças acima ? veja o ex0023 pag007 e iframe004, ou a aula: https://www.youtube.com/watch?v=hPze5_OYqBw&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=10
+
+
+ANOTAÇÕES PROJETO CELULAR (CAPÍTULO 23)
+
+Dicas:
+<main></main> >>> Conteúdo principal 
+<section></section> >>> Sessão 
+
+
+Tags novas e interessantes 
+
+
+TAGS CSS:
+height: 100vh; >>> Altura total do navegador
+width: 100vw; >>> Largura total
+background-size: cover; >>> Esse código faz com que uma imagem pegue a tela inteira, basta estilizar ela
+border-radius: 50%; >>> Tag para deixar sua imagem redondinha
+text-align: right; >>> tag para posicionar itens a direita
+box-sizing:  border-box; >>> Tag para deixar borda separada, no caso a borda so sera aplicada a uma das imagens, quando alguém passar o mouse acima
+transform: translate(-10px, -10px); >>> Tag para da uma leve movida quando o mouse passar por cima de algum item seu
+transition: transform 1s; >>> Tag para da uma suavizada nos seus hover
+transition: transform 1s, border 1s; >>> Mesma função do código acima, porem agora a borda também faz o hover
+display: block; >>> Essa tag faz com que links fiquem na parte debaixo do site
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        } >>> Esse código esconde a scroll bar do seu site
