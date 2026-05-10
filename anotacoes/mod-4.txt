@@ -69,3 +69,15 @@ display: block; >>> Essa tag faz com que links fiquem na parte debaixo do site
             width: 0px;
             height: 0px;
         } >>> Esse código esconde a scroll bar do seu site
+
+Existem 2 tipos de envio de formulario, a gente tem o get que ele deixa os dados mostrando no url e tem o post que não deixa os dados mostrando no url, pra usar eles basta colocar isso: method="post"
+ no formulario seu.
+
+ QUANDO USAR GET OU POST ? 
+ use get quando os dados não forem dados sensiveis , lembre-se que get só pode ser usado até 3 mil bytes 
+
+ QUANDO USAR POST ? quando os dados forem sensiveis ou dados tiver mais de 3 mil bytes, lembre-se tambem de estudar https, o guanabara disse que é importante, ou use o post quando for enviar fotos ou arquivos 
+
+ aula 04
+
+ tudo anotado no caderno ja
