@@ -10,8 +10,23 @@ Grandes Telas: acima de 1200px
 */
 
 
+
 @media screen and (min-width: 768px){
-    i#burguer{
+
+    span#burguer{
         display: none;
     }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+
 }
